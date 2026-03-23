@@ -1,0 +1,94 @@
+title: "Async/Await Assignment Rubric"
+free_form_criterion_comments: true
+
+criteria:
+  - description: "Code Correctness"
+    long_description: >
+      The submitted HTML file runs without errors in a browser. runSequential correctly awaits
+      three delays in order and logs timing. runParallel uses Promise.all and logs the results
+      array and timing. The parallel time is noticeably shorter than sequential time. riskyTask
+      uses try/catch to handle a rejected Promise and logs the error.
+    points: 40
+    ratings:
+      - description: "Excelling (40)"
+        long_description: "File opens without errors. All three functions work exactly as specified. Timing logs show sequential significantly slower than parallel. Error is caught and logged correctly."
+        points: 40
+      - description: "Achieving (32)"
+        long_description: "File opens and most features work. One minor issue — for example, timing is not logged or the results array is not logged — but core async/await usage is correct."
+        points: 32
+      - description: "Developing (24)"
+        long_description: "File opens but has logic errors. At least two of the three functions (runSequential, runParallel, riskyTask) work correctly."
+        points: 24
+      - description: "Beginning (16)"
+        long_description: "File has significant errors. async/await syntax is used but the functions do not produce correct output."
+        points: 16
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted, or the submitted file does not match the assignment requirements."
+        points: 0
+
+  - description: "Code Readability"
+    long_description: >
+      Code is formatted cleanly. Each function is separated by a comment label. Indentation
+      inside async functions is consistent. Variable names are meaningful. The timing approach
+      using Date.now() is clear.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "Code is neatly indented. All functions have comment labels above them. Timing variables are named clearly (e.g., start, elapsed). Code reads top to bottom easily."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Code is mostly readable with minor formatting inconsistencies."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Code has noticeable formatting issues but the structure is understandable."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Code is hard to read. Little attention paid to indentation or naming."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0
+
+  - description: "Stretch Level Attempted"
+    long_description: >
+      Student attempted a stretch level beyond the base requirements.
+    points: 20
+    ratings:
+      - description: "Advanced (20)"
+        long_description: "Student completed the Advanced stretch: runWithTimeout races a task against a timeout Promise and correctly handles both the timeout-wins and task-wins cases."
+        points: 20
+      - description: "Intermediate (16)"
+        long_description: "Student completed the Intermediate stretch: each step passes its result into the next step's label, and the final logged value shows the full chain history."
+        points: 16
+      - description: "Base Completed (12)"
+        long_description: "Student completed only the Base level but did so fully and correctly."
+        points: 12
+      - description: "Base Incomplete (8)"
+        long_description: "Student attempted the Base level but did not complete all required elements."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted or no recognizable attempt at any stretch level."
+        points: 0
+
+  - description: "Following Instructions"
+    long_description: >
+      Student followed the assignment instructions: correct file name, three functions with
+      correct names, all three called at the bottom of the script, timing logged for both
+      sequential and parallel, error handling demonstrated, submission via Canvas upload.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "File is named async-await.html. Functions are named runSequential, runParallel, and riskyTask exactly. All three are called at the bottom. Timing is logged. Submitted via Canvas."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Minor deviations from instructions (e.g., slightly different function names or timing not logged for one function) but overall instructions followed."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Several instructions were not followed (e.g., functions not called at the bottom, timing not logged, or error handling missing)."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Major departures from instructions. The submission barely resembles what was asked for."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0

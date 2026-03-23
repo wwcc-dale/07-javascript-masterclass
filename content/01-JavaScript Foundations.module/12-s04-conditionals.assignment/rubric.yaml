@@ -1,0 +1,92 @@
+title: "Grade Calculator Rubric"
+free_form_criterion_comments: true
+
+criteria:
+  - description: "Code Correctness"
+    long_description: >
+      The submitted HTML file opens without errors. The if/else if/else chain
+      correctly assigns letter grades for all five ranges. The template literal
+      logs the score and grade correctly. Comments show evidence of testing with
+      at least three different score values.
+    points: 40
+    ratings:
+      - description: "Excelling (40)"
+        long_description: "All five grade ranges are correctly handled. Template literal output is correct. Evidence of testing at least three scores is present in comments."
+        points: 40
+      - description: "Achieving (32)"
+        long_description: "Core grade logic works with minor issues — for example, one boundary condition is slightly off or a comment is missing."
+        points: 32
+      - description: "Developing (24)"
+        long_description: "File opens but the grade logic has errors in at least two ranges. Some output appears correctly."
+        points: 24
+      - description: "Beginning (16)"
+        long_description: "File has significant errors. Grade logic is largely incorrect or the console shows errors."
+        points: 16
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted or the file does not match the assignment requirements."
+        points: 0
+
+  - description: "Code Readability"
+    long_description: >
+      Code is formatted cleanly. The if/else chain is indented consistently.
+      Comments explain test cases. Variable names are meaningful.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "Code is neatly indented. The if/else chain is easy to follow. Test case comments are present and clear."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Code is mostly readable with minor formatting issues. Some comments present."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Code has noticeable formatting issues or missing comments, but the logic is still understandable."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Code is hard to read. Little indentation, no comments, or unclear structure."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0
+
+  - description: "Stretch Level Attempted"
+    long_description: >
+      Student attempted a stretch level beyond the base requirements.
+    points: 20
+    ratings:
+      - description: "Advanced (20)"
+        long_description: "Student completed the Advanced stretch: input validation with nested conditional, and a switch statement that logs a specific tip for each letter grade."
+        points: 20
+      - description: "Intermediate (16)"
+        long_description: "Student completed the Intermediate stretch: passFail variable using ||, a second logged message, and a ternary operator for feedback."
+        points: 16
+      - description: "Base Completed (12)"
+        long_description: "Student completed only the Base level fully and correctly."
+        points: 12
+      - description: "Base Incomplete (8)"
+        long_description: "Student attempted the Base level but did not complete all required elements."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted or no recognizable attempt."
+        points: 0
+
+  - description: "Following Instructions"
+    long_description: >
+      Student followed the assignment instructions: correct file name, correct
+      variable names, grade logic checks from highest to lowest, submitted via Canvas.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "File is named grade-calculator.html. Variables score and grade are present. if/else chain checks from A down to F. Submitted via Canvas."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Minor deviations from instructions but overall the assignment was followed correctly."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Several instructions were not followed — for example, wrong variable names, wrong file name, or grade order is reversed."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Major departures from instructions. Submission barely resembles what was asked."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0

@@ -1,0 +1,91 @@
+title: "Greeting Generator Rubric"
+free_form_criterion_comments: true
+
+criteria:
+  - description: "Code Correctness"
+    long_description: >
+      The submitted HTML file opens without errors. The program uses trim(),
+      toUpperCase(), Math.round(), and .length correctly. Three template literal
+      lines log the expected output to the console.
+    points: 40
+    ratings:
+      - description: "Excelling (40)"
+        long_description: "All required string methods and template literals are used correctly. Console output matches the expected format for all three lines."
+        points: 40
+      - description: "Achieving (32)"
+        long_description: "Core requirements are met with one or two minor issues — for example, a missing method or a slightly incorrect output format."
+        points: 32
+      - description: "Developing (24)"
+        long_description: "File opens but several methods are missing or used incorrectly. At least two of the three output lines appear correctly."
+        points: 24
+      - description: "Beginning (16)"
+        long_description: "File has significant errors. Fewer than two output lines are correct or console shows repeated errors."
+        points: 16
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted or the file does not match the assignment requirements."
+        points: 0
+
+  - description: "Code Readability"
+    long_description: >
+      Code is cleanly formatted with consistent indentation. At least two comments
+      explain what the code does. Variable names are meaningful.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "Code is neatly indented. At least two meaningful comments are present. Variable names clearly describe their purpose."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Code is mostly readable. One comment present. Minor formatting issues."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Code has formatting issues or no comments, but the logic is still understandable."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Code is hard to read with no comments and inconsistent formatting."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0
+
+  - description: "Stretch Level Attempted"
+    long_description: >
+      Student attempted a stretch level beyond the base requirements.
+    points: 20
+    ratings:
+      - description: "Advanced (20)"
+        long_description: "Student completed the Advanced stretch: six-item name report with template literals, plus Number.parseFloat() demonstration with a comment explaining the behavior."
+        points: 20
+      - description: "Intermediate (16)"
+        long_description: "Student completed the Intermediate stretch: added includes() check and slice() to output two additional lines."
+        points: 16
+      - description: "Base Completed (12)"
+        long_description: "Student completed only the Base level fully and correctly."
+        points: 12
+      - description: "Base Incomplete (8)"
+        long_description: "Student attempted the Base level but did not complete all required elements."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted or no recognizable attempt."
+        points: 0
+
+  - description: "Following Instructions"
+    long_description: >
+      Student followed the assignment instructions: correct file name, userName
+      includes extra whitespace, all required variables declared, submitted via Canvas.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "File is named greeting-generator.html. userName includes extra whitespace. All required variables are declared. Submitted via Canvas."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Minor deviations from instructions but overall the assignment was followed correctly."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Several instructions were not followed — for example, userName has no extra whitespace or required variables are missing."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Major departures from instructions. Submission barely resembles what was asked."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0

@@ -1,0 +1,93 @@
+title: "Contact Card Object Rubric"
+free_form_criterion_comments: true
+
+criteria:
+  - description: "Code Correctness"
+    long_description: >
+      The submitted HTML file runs without errors. A contact object is created
+      with 5 initial properties. Two properties are added, one is deleted, and
+      a for...in loop logs all remaining properties and values. Pass-by-reference
+      is demonstrated correctly with a second variable and a comment explaining it.
+    points: 40
+    ratings:
+      - description: "Excelling (40)"
+        long_description: "File opens without errors. All required steps complete and correct: object creation, add/delete properties, for...in loop with output, and pass-by-reference demonstration with comment."
+        points: 40
+      - description: "Achieving (32)"
+        long_description: "Most steps are correct. One or two minor issues (e.g., missing comment on pass-by-reference or a small output error) but the core requirements are met."
+        points: 32
+      - description: "Developing (24)"
+        long_description: "File opens but has errors in some steps. At least three of the five main tasks are completed correctly."
+        points: 24
+      - description: "Beginning (16)"
+        long_description: "File has significant errors. Fewer than three tasks are completed correctly or the console shows errors."
+        points: 16
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted, or the submitted file does not match the assignment requirements."
+        points: 0
+
+  - description: "Code Readability"
+    long_description: >
+      Code is cleanly formatted. Indentation is consistent. Variable and property
+      names are meaningful and use camelCase. Comments are present where expected.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "Code is neatly indented throughout. All names use camelCase. Required comment is present and clearly explains pass-by-reference. Easy to read at a glance."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Code is mostly readable with minor formatting inconsistencies. Names are generally correct. Comment is present but could be clearer."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Code has noticeable formatting issues or unclear names, but the structure is still understandable."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Code is hard to read. Little attention paid to indentation, naming, or comments."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0
+
+  - description: "Stretch Level Attempted"
+    long_description: >
+      Student attempted a stretch level beyond the base requirements.
+    points: 20
+    ratings:
+      - description: "Advanced (20)"
+        long_description: "Student completed the Advanced stretch: wrote a reusable printContact() function that works on any object and called it with at least two different objects."
+        points: 20
+      - description: "Intermediate (16)"
+        long_description: "Student completed the Intermediate stretch: added Object.keys(), Object.values(), and Object.entries() output with labels, plus in-operator checks."
+        points: 16
+      - description: "Base Completed (12)"
+        long_description: "Student completed only the Base level but did so fully and correctly."
+        points: 12
+      - description: "Base Incomplete (8)"
+        long_description: "Student attempted the Base level but did not complete all required elements."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted or no recognizable attempt at any stretch level."
+        points: 0
+
+  - description: "Following Instructions"
+    long_description: >
+      Student followed the assignment instructions: correct file name, object
+      has required structure, all steps completed in the correct order, submitted
+      via Canvas upload.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "File is named contact-card.html. Object has all required properties. Steps are completed in the expected order. Submitted via Canvas."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Minor deviations from instructions (e.g., slight difference in file name or one property name missing) but overall instructions followed."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Several instructions not followed (e.g., object missing multiple required properties, steps out of order, wrong submission method)."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Major departures from instructions. Submission barely resembles what was asked for."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0

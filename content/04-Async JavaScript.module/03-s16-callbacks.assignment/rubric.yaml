@@ -1,0 +1,93 @@
+title: "Callbacks and Timers Rubric"
+free_form_criterion_comments: true
+
+criteria:
+  - description: "Code Correctness"
+    long_description: >
+      The submitted HTML file runs without errors in a browser. Part 1 uses setTimeout to log
+      a message after 3 seconds. Part 2 uses setInterval to count from 1 to 5, one per second,
+      and stops with clearInterval. Part 3 defines a calculate function that accepts two numbers
+      and a callback, adds them, and calls the callback with the result.
+    points: 40
+    ratings:
+      - description: "Excelling (40)"
+        long_description: "File opens without errors. All three parts work exactly as specified. setTimeout fires at 3 s, interval counts to 5 and stops, calculate function works correctly."
+        points: 40
+      - description: "Achieving (32)"
+        long_description: "File opens and most parts work. One minor issue — for example, a slightly different delay or the interval not stopping cleanly — but core requirements are met."
+        points: 32
+      - description: "Developing (24)"
+        long_description: "File opens but has logic or syntax errors. At least two of the three parts work correctly."
+        points: 24
+      - description: "Beginning (16)"
+        long_description: "File has significant errors. Only one part works correctly or the console shows multiple errors."
+        points: 16
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted, or the submitted file does not match the assignment requirements."
+        points: 0
+
+  - description: "Code Readability"
+    long_description: >
+      Code is formatted cleanly. Each of the three parts is separated by a comment label.
+      Indentation is consistent. Variable and function names are meaningful.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "Code is neatly indented. All three parts have comment labels. Variable and function names are clear and meaningful."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Code is mostly readable with minor formatting inconsistencies. Comments are mostly present."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Code has noticeable formatting issues or missing comments, but the structure is still understandable."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Code is hard to read. Little to no attention paid to indentation, naming, or comments."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0
+
+  - description: "Stretch Level Attempted"
+    long_description: >
+      Student attempted a stretch level beyond the base requirements.
+    points: 20
+    ratings:
+      - description: "Advanced (20)"
+        long_description: "Student completed the Advanced stretch: implemented repeatTask(task, times, delayMs) using nested setTimeouts and demonstrated it correctly."
+        points: 20
+      - description: "Intermediate (16)"
+        long_description: "Student completed the Intermediate stretch: the interval counter updates a page element live and displays 'Done!' when finished."
+        points: 16
+      - description: "Base Completed (12)"
+        long_description: "Student completed only the Base level but did so fully and correctly."
+        points: 12
+      - description: "Base Incomplete (8)"
+        long_description: "Student attempted the Base level but did not complete all required elements."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted or no recognizable attempt at any stretch level."
+        points: 0
+
+  - description: "Following Instructions"
+    long_description: >
+      Student followed the assignment instructions: correct file name, three clearly
+      labeled parts, correct function name (calculate), submission via Canvas upload,
+      HTML structure intact.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "File is named callbacks-timers.html. All three parts are present with comment labels. The function is named calculate exactly. Submitted via Canvas."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Minor deviations from instructions (e.g., slightly different file name or function name) but overall instructions followed."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Several instructions were not followed (e.g., missing parts, wrong function name, or missing HTML structure)."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Major departures from instructions. The submission barely resembles what was asked for."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0

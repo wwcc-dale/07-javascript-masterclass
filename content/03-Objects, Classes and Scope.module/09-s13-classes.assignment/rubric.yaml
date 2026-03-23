@@ -1,0 +1,94 @@
+title: "Rectangle Class Rubric"
+free_form_criterion_comments: true
+
+criteria:
+  - description: "Code Correctness"
+    long_description: >
+      The submitted HTML file runs without errors. A Rectangle class is defined
+      with a correct constructor, and all three methods (area, perimeter, describe)
+      return correct values. Three instances are created and all method calls
+      produce the right output in the console.
+    points: 40
+    ratings:
+      - description: "Excelling (40)"
+        long_description: "File opens without errors. Class has a correct constructor and all three methods. Three instances created. All method outputs are mathematically correct and logged with labels."
+        points: 40
+      - description: "Achieving (32)"
+        long_description: "Most requirements correct. One or two minor issues (e.g., describe() format slightly off or one method has a small error) but core class structure and instances work."
+        points: 32
+      - description: "Developing (24)"
+        long_description: "Class is defined and instances are created, but one or two methods are missing or incorrect. At least two of the three methods produce correct output."
+        points: 24
+      - description: "Beginning (16)"
+        long_description: "Class structure is attempted but has significant errors. Fewer than two methods work correctly or instances are not created properly."
+        points: 16
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted, or the submitted file does not match the assignment requirements."
+        points: 0
+
+  - description: "Code Readability"
+    long_description: >
+      Code is cleanly formatted. Indentation is consistent. The class name uses
+      PascalCase. Method names use camelCase. Template literal is used in describe().
+      Code is easy to follow.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "Class is neatly indented. Rectangle is capitalized. Methods use camelCase. describe() uses a template literal. Console logs include meaningful labels."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Code is mostly readable. Minor formatting issues or one naming inconsistency."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Code has noticeable formatting issues or naming inconsistencies but the structure is still understandable."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Code is hard to read. Little attention paid to indentation, naming, or formatting."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0
+
+  - description: "Stretch Level Attempted"
+    long_description: >
+      Student attempted a stretch level beyond the base requirements.
+    points: 20
+    ratings:
+      - description: "Advanced (20)"
+        long_description: "Student completed the Advanced stretch: wrote largestRectangle() function that finds the largest area from an array of 5+ instances, and added a scale() method that modifies dimensions."
+        points: 20
+      - description: "Intermediate (16)"
+        long_description: "Student completed the Intermediate stretch: added isSquare() method and used forEach to log describe() output for all instances in a loop."
+        points: 16
+      - description: "Base Completed (12)"
+        long_description: "Student completed only the Base level but did so fully and correctly."
+        points: 12
+      - description: "Base Incomplete (8)"
+        long_description: "Student attempted the Base level but did not complete all required elements."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted or no recognizable attempt at any stretch level."
+        points: 0
+
+  - description: "Following Instructions"
+    long_description: >
+      Student followed the assignment instructions: correct file name, class named
+      Rectangle with capital R, all three methods present, three instances created,
+      submitted via Canvas upload.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "File is named rectangle-class.html. Class is named Rectangle. All three methods are present. Three distinct instances are created. Submitted via Canvas."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Minor deviations from instructions (e.g., slight file name difference or one method named slightly differently) but overall instructions followed."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Several instructions not followed (e.g., class name lowercase, methods missing, fewer than three instances)."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Major departures from instructions. Submission barely resembles what was asked for."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0

@@ -1,0 +1,94 @@
+title: "Promises Assignment Rubric"
+free_form_criterion_comments: true
+
+criteria:
+  - description: "Code Correctness"
+    long_description: >
+      The submitted HTML file runs without errors in a browser. The delay function returns a
+      Promise that resolves after the given milliseconds. Three delays are chained correctly
+      with results logged at each step. A .catch() and .finally() are present. A rejected
+      Promise is demonstrated with a .catch() handler.
+    points: 40
+    ratings:
+      - description: "Excelling (40)"
+        long_description: "File opens without errors. delay function works correctly. All three steps log in order. .catch() and .finally() are present and work. Rejected Promise is demonstrated correctly."
+        points: 40
+      - description: "Achieving (32)"
+        long_description: "File opens and most features work. One minor issue — for example, .finally() is missing or one step logs incorrectly — but core chaining and error handling work."
+        points: 32
+      - description: "Developing (24)"
+        long_description: "File opens but has logic errors. The delay function and basic chaining work, but error handling or .finally() is missing or broken."
+        points: 24
+      - description: "Beginning (16)"
+        long_description: "File has significant errors. The delay function does not work correctly or the chain does not execute in order."
+        points: 16
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted, or the submitted file does not match the assignment requirements."
+        points: 0
+
+  - description: "Code Readability"
+    long_description: >
+      Code is formatted cleanly. Each section (delay function, chain, rejected Promise demo)
+      is separated by a comment label. Indentation is consistent inside the chain. Variable
+      and function names are meaningful.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "Code is neatly indented. All sections have comment labels. The Promise chain is formatted so each .then()/.catch()/.finally() is on its own line and easy to read."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Code is mostly readable with minor formatting inconsistencies. Comments are mostly present."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Code has noticeable formatting issues or missing comments, but the structure is still understandable."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Code is hard to read. The chain is formatted in a confusing way and comments are absent."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0
+
+  - description: "Stretch Level Attempted"
+    long_description: >
+      Student attempted a stretch level beyond the base requirements.
+    points: 20
+    ratings:
+      - description: "Advanced (20)"
+        long_description: "Student completed the Advanced stretch: implemented a timeout() function and used Promise.race to demonstrate both a timeout win and a task win, with appropriate logging."
+        points: 20
+      - description: "Intermediate (16)"
+        long_description: "Student completed the Intermediate stretch: used Promise.all with three delays and logged the results array with timestamps showing parallel execution."
+        points: 16
+      - description: "Base Completed (12)"
+        long_description: "Student completed only the Base level but did so fully and correctly."
+        points: 12
+      - description: "Base Incomplete (8)"
+        long_description: "Student attempted the Base level but did not complete all required elements."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted or no recognizable attempt at any stretch level."
+        points: 0
+
+  - description: "Following Instructions"
+    long_description: >
+      Student followed the assignment instructions: correct file name, delay function
+      with correct signature, chain with exactly three steps, .catch() and .finally()
+      present, rejected Promise demonstrated, submission via Canvas upload.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "File is named promises.html. delay(ms, label) function is named correctly. Chain has three steps. .catch() and .finally() are present. Rejected Promise is demonstrated. Submitted via Canvas."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Minor deviations from instructions (e.g., slightly different function signature or step count) but overall instructions followed."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Several instructions were not followed (e.g., missing .finally(), wrong function name, or rejected Promise not demonstrated)."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Major departures from instructions. The submission barely resembles what was asked for."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0

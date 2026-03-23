@@ -1,0 +1,91 @@
+title: "My First Variables Rubric"
+free_form_criterion_comments: true
+
+criteria:
+  - description: "Code Correctness"
+    long_description: >
+      The submitted HTML file runs without errors in a browser. All five required
+      variables are declared with correct values, and all five values appear in
+      the browser console via console.log().
+    points: 40
+    ratings:
+      - description: "Excelling (40)"
+        long_description: "File opens without errors. All five variables are declared, assigned correct values, and logged to the console. Output matches expectations."
+        points: 40
+      - description: "Achieving (32)"
+        long_description: "File opens and most variables work correctly. One or two minor issues (e.g., a missing log or a small typo) but core requirements are met."
+        points: 32
+      - description: "Developing (24)"
+        long_description: "File opens but has logic or syntax errors. At least three of the five variables are declared and logged correctly."
+        points: 24
+      - description: "Beginning (16)"
+        long_description: "File has significant errors. Fewer than three variables work correctly or the console shows errors."
+        points: 16
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted, or the submitted file does not match the assignment requirements."
+        points: 0
+
+  - description: "Code Readability"
+    long_description: >
+      Code is formatted cleanly. Indentation is consistent. Variable names follow
+      camelCase convention and are meaningful. Comments are used where helpful.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "Code is neatly indented. All variable names use camelCase and are meaningful. Code is easy to read at a glance."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Code is mostly readable with minor formatting inconsistencies. Variable names are generally correct."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Code has noticeable formatting issues or unclear variable names, but the structure is still understandable."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Code is hard to read. Little to no attention paid to indentation, naming, or structure."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0
+
+  - description: "Stretch Level Attempted"
+    long_description: >
+      Student attempted a stretch level beyond the base requirements.
+    points: 20
+    ratings:
+      - description: "Advanced (20)"
+        long_description: "Student completed the Advanced stretch: added fullGreeting and nextBirthday variables, logged them, and included a comment block explaining each variable's purpose and keyword choice."
+        points: 20
+      - description: "Intermediate (16)"
+        long_description: "Student completed the Intermediate stretch: all console.log() calls include labels combining text and variable values."
+        points: 16
+      - description: "Base Completed (12)"
+        long_description: "Student completed only the Base level but did so fully and correctly."
+        points: 12
+      - description: "Base Incomplete (8)"
+        long_description: "Student attempted the Base level but did not complete all required elements."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted or no recognizable attempt at any stretch level."
+        points: 0
+
+  - description: "Following Instructions"
+    long_description: >
+      Student followed the assignment instructions: correct file name, correct
+      variable names, submission via Canvas upload, HTML structure intact.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "File is named my-variables.html. All required variable names are used exactly as specified. HTML skeleton is present and correct. Submitted via Canvas."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Minor deviations from instructions (e.g., slight difference in file name or one variable name) but overall instructions followed."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Several instructions were not followed (e.g., multiple wrong variable names, missing HTML structure, or wrong submission method)."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Major departures from instructions. The submission barely resembles what was asked for."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0

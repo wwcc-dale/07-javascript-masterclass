@@ -1,0 +1,91 @@
+title: "Math and Types Explorer Rubric"
+free_form_criterion_comments: true
+
+criteria:
+  - description: "Code Correctness"
+    long_description: >
+      The submitted HTML file opens without errors. Five arithmetic calculations,
+      three typeof checks, three comparisons, and one precedence demonstration are
+      all present and produce correct output in the browser console.
+    points: 40
+    ratings:
+      - description: "Excelling (40)"
+        long_description: "All required elements are present and correct. Console output matches expectations for all calculations, typeof checks, comparisons, and the precedence demonstration."
+        points: 40
+      - description: "Achieving (32)"
+        long_description: "Most elements are correct with one or two minor issues — for example, a missing label or a calculation with a small error. Core requirements are met."
+        points: 32
+      - description: "Developing (24)"
+        long_description: "File opens but several elements are missing or incorrect. At least half of the required console outputs appear correctly."
+        points: 24
+      - description: "Beginning (16)"
+        long_description: "File has significant errors. Fewer than half of the required outputs are correct or the console shows repeated errors."
+        points: 16
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted or the file does not match the assignment requirements."
+        points: 0
+
+  - description: "Code Readability"
+    long_description: >
+      Code is formatted cleanly with consistent indentation. All console.log()
+      calls include descriptive text labels. Variable names are meaningful.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "Code is neatly indented. Every console.log() call has a clear label. Variable names are descriptive and use camelCase."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Code is mostly readable. Most logs have labels. Minor formatting issues present."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Code has noticeable formatting issues or several unlabeled log statements, but the structure is still understandable."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Code is hard to read with little attention to indentation, labels, or naming."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0
+
+  - description: "Stretch Level Attempted"
+    long_description: >
+      Student attempted a stretch level beyond the base requirements.
+    points: 20
+    ratings:
+      - description: "Advanced (20)"
+        long_description: "Student completed the Advanced stretch: built a calculator summary chain with startingValue, afterAdd, afterMultiply, and finalResult, logged a template literal summary, and confirmed all types."
+        points: 20
+      - description: "Intermediate (16)"
+        long_description: "Student completed the Intermediate stretch: compared a string number to a real number using both == and ===, logged both results, and added a comment explaining the difference."
+        points: 16
+      - description: "Base Completed (12)"
+        long_description: "Student completed only the Base level but did so fully and correctly."
+        points: 12
+      - description: "Base Incomplete (8)"
+        long_description: "Student attempted the Base level but did not complete all required elements."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted or no recognizable attempt."
+        points: 0
+
+  - description: "Following Instructions"
+    long_description: >
+      Student followed the assignment instructions: correct file name, all required
+      code sections present, submitted via Canvas upload.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "File is named math-explorer.html. All required sections (calculations, typeof, comparisons, precedence demo) are present. Submitted via Canvas."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Minor deviations from instructions but overall the assignment was followed correctly."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Several instructions were not followed — for example, missing sections or wrong file name."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Major departures from instructions. Submission barely resembles what was asked."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0

@@ -1,0 +1,92 @@
+title: "Built-in Objects Assignment Rubric"
+free_form_criterion_comments: true
+
+criteria:
+  - description: "Code Correctness"
+    long_description: >
+      The submitted HTML file runs without errors in a browser. All five parts produce correct
+      output: Part 1 generates 10 random integers and logs max/min/sum; Part 2 logs today's date
+      with 1-based month; Part 3 stringifies an object and parses it back; Part 4 removes
+      duplicates using Set; Part 5 counts word frequency using Map.
+    points: 40
+    ratings:
+      - description: "Excelling (40)"
+        long_description: "File opens without errors. All five parts work exactly as specified. Math, Date, JSON, Set, and Map are all used correctly and output is accurate."
+        points: 40
+      - description: "Achieving (32)"
+        long_description: "File opens and most parts work. One minor issue — for example, month is 0-based instead of 1-based, or sum is missing — but four of five parts are fully correct."
+        points: 32
+      - description: "Developing (24)"
+        long_description: "File opens but has errors. At least three of the five parts produce correct output."
+        points: 24
+      - description: "Beginning (16)"
+        long_description: "File has significant errors. Only one or two parts produce correct output."
+        points: 16
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted, or the submitted file does not match the assignment requirements."
+        points: 0
+
+  - description: "Code Readability"
+    long_description: >
+      Code is formatted cleanly. Each of the five parts is separated by a comment label.
+      Variable names are meaningful. Code inside each part is indented consistently.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "Code is neatly indented. All five parts have clear comment labels. Variable names are descriptive and meaningful throughout."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Code is mostly readable with minor formatting inconsistencies. Comments are mostly present."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Code has noticeable formatting issues or missing comments, but the structure is still understandable."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Code is hard to read. Little to no attention paid to indentation, naming, or comments."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0
+
+  - description: "Stretch Level Attempted"
+    long_description: >
+      Student attempted a stretch level beyond the base requirements.
+    points: 20
+    ratings:
+      - description: "Advanced (20)"
+        long_description: "Student completed the Advanced stretch: found the modal word from the Map, counted unique words using a Set, and serialized the frequency counts to JSON."
+        points: 20
+      - description: "Intermediate (16)"
+        long_description: "Student completed the Intermediate stretch: logged the median from Part 1 and logged the day name from Part 2 using an array lookup."
+        points: 16
+      - description: "Base Completed (12)"
+        long_description: "Student completed only the Base level but did so fully and correctly."
+        points: 12
+      - description: "Base Incomplete (8)"
+        long_description: "Student attempted the Base level but did not complete all required elements."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted or no recognizable attempt at any stretch level."
+        points: 0
+
+  - description: "Following Instructions"
+    long_description: >
+      Student followed the assignment instructions: correct file name, five parts each with
+      comment labels, correct built-in objects used for each part, submission via Canvas upload.
+    points: 20
+    ratings:
+      - description: "Excelling (20)"
+        long_description: "File is named built-in-objects.html. All five parts are present with comment labels. Correct built-in objects are used in each part. Submitted via Canvas."
+        points: 20
+      - description: "Achieving (16)"
+        long_description: "Minor deviations from instructions (e.g., slightly different file name or one part uses a different approach) but overall instructions followed."
+        points: 16
+      - description: "Developing (12)"
+        long_description: "Several instructions were not followed (e.g., parts are missing, wrong objects used, or comment labels absent)."
+        points: 12
+      - description: "Beginning (8)"
+        long_description: "Major departures from instructions. The submission barely resembles what was asked for."
+        points: 8
+      - description: "No Evidence (0)"
+        long_description: "Nothing submitted."
+        points: 0
