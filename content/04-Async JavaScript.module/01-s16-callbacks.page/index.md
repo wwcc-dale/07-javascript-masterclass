@@ -1,6 +1,6 @@
 ---
 name: "Session 16: Callbacks and Timers"
-published: false
+published: true
 outcomes:
   - 04-MOD
 topics:

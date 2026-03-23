@@ -2,7 +2,7 @@
 name: Welcome to JavaScript Programming
 outcomes:
 - 03-ELEM
-published: false
+published: true
 topics:
 - orientation
 - course-overview

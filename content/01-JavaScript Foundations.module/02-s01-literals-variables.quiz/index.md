@@ -6,7 +6,7 @@ time_limit: null
 allowed_attempts: -1
 shuffle_answers: true
 show_correct_answers: true
-published: false
+published: true
 question_groups:
   - bank_id: 0  # question-banks/s01-literals-variables.bank.md — replace with Canvas ID after sync
     pick: 10

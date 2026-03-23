@@ -1,6 +1,6 @@
 ---
 name: "Session 11: Objects Basics"
-published: false
+published: true
 outcomes:
   - 02-OOP
 topics:

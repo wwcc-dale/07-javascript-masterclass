@@ -1,6 +1,6 @@
 ---
 name: "Session 21: Error Handling"
-published: false
+published: true
 outcomes:
   - 05-DEBUG
 topics:

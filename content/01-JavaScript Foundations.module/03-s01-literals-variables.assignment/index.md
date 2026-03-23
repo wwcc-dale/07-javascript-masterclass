@@ -1,7 +1,7 @@
 ---
 indent: 2
 name: "Assignment: My First Variables"
-published: false
+published: true
 points_possible: 100
 grading_type: points
 submission_types:

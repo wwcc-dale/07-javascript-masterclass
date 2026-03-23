@@ -1,6 +1,6 @@
 ---
 name: "Session 6: Arrays Basics"
-published: false
+published: true
 outcomes:
   - 03-ELEM
 topics:

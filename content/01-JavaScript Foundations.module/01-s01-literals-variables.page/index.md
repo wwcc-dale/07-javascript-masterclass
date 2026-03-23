@@ -1,6 +1,6 @@
 ---
 name: "Session 1: Literals, Identifiers, and Variables"
-published: false
+published: true
 outcomes:
   - 03-ELEM
 topics:
