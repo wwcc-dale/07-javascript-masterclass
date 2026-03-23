@@ -1,0 +1,28 @@
+description: "Code Correctness"
+long_description: >
+  The submitted code runs without errors and produces the expected output for
+  all required cases.
+points: 30
+ratings:
+  - description: "Excelling (30)"
+    long_description: >
+      Code runs without errors, meets all requirements, and handles edge cases
+      or unexpected input cleanly.
+    points: 30
+  - description: "Achieving (24)"
+    long_description: >
+      Code runs and meets all core requirements. Minor issues do not affect the
+      overall result.
+    points: 24
+  - description: "Developing (18)"
+    long_description: >
+      Code runs but has logic errors or incomplete requirements. At least half
+      the requirements are met.
+    points: 18
+  - description: "Beginning (12)"
+    long_description: >
+      Code has significant errors or crashes before completing key requirements.
+    points: 12
+  - description: "No Evidence (0)"
+    long_description: "No code submitted or code does not relate to the assignment."
+    points: 0

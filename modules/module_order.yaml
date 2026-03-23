@@ -1,0 +1,7 @@
+modules:
+  - "00-Getting Started"
+  - "01-JavaScript Foundations"
+  - "02-Arrays, Loops and Functions"
+  - "03-Objects, Classes and Scope"
+  - "04-Async JavaScript"
+  - "05-Error Handling, Fetch and Modules"

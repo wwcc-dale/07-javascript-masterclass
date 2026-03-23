@@ -1,0 +1,13 @@
+course_code: "CIS 151"
+course_name: JavaScript Programming
+course_title: JavaScript Programming
+program_name: WWCC Digital Design
+institution: Walla Walla Community College
+instructor_name: Dale Chapman
+session_duration: 3 hours
+expected_pace: One credit per week
+sessions_per_credit: five sessions
+save_reminder: "Save your work often — use Ctrl+S (Windows) or Cmd+S (Mac). Unsaved work can be lost if the computer sleeps or restarts."
+academic_integrity: "All work you submit must be your own. Using code written by someone else without attribution is academic dishonesty. You may look things up and ask for help — that is expected. Submitting someone else's code as your own is not."
+late_penalty: "Late work is not accepted without prior instructor approval. If you need an extension, ask before the due date."
+software: "A web browser with developer tools (F12) and a plain-text code editor such as Visual Studio Code."
