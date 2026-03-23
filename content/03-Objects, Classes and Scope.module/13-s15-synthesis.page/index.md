@@ -19,14 +19,6 @@ Before you build the Library Catalog project and sit the Midterm Exam, take time
 
 ---
 
-## Reading Assignment
-
-There is no new source material for this session. Review your notes, re-read any Key Concepts sections you feel less confident about, and look back at your completed assignments from Sessions 11–14.
-
-If you want to review specific topics from Credits 1 and 2, revisit the pages for Sessions 1–9 as needed.
-
----
-
 ## Video Tutorial
 
 There are no new videos for this session. If any topic from Sessions 11–14 is still unclear, rewatch the relevant videos from the shared class drive:

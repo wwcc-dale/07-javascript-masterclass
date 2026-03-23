@@ -21,19 +21,6 @@ By the end of this session you will be able to check HTTP status codes, add head
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive:
-
-- `source/week 4/Day 1/04-Status-Codes.html`
-- `source/week 4/Day 1/05-Headers.html`
-- `source/week 4/Day 1/06-POST-Requests.html`
-- `source/week 4/Day 1/07-Async-Fetch.html`
-
-Read each file once, then work through the Key Concepts section below.
-
----
-
 ## Video Tutorial
 
 - video-tabs

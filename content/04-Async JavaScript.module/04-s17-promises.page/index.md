@@ -18,18 +18,6 @@ By the end of this session you will be able to create a Promise, consume it with
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive:
-
-- `source/week 3/Day 1/03-Promises.html`
-- `source/week 3/Day 1/04-Promise chaining.html`
-- `source/week 3/Day 1/05-Promise.all and race.html`
-
-Read each page once, then work through the Key Concepts section below.
-
----
-
 ## Video Tutorial
 
 - video-tabs

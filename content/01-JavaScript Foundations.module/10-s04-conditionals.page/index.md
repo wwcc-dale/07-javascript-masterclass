@@ -20,22 +20,6 @@ Up to now your programs have run the same code every time. That changes today.
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive:
-
-- `source/week 1/Day 3/01-Comparison operators.html`
-- `source/week 1/Day 3/02-"if" statements.html`
-- `source/week 1/Day 3/03-How to use "else".html`
-- `source/week 1/Day 3/04-Switch.html`
-- `source/week 1/Day 3/05-Nesting "if" statements.html`
-- `source/week 1/Day 3/06-More complex conditions.html`
-- `source/week 1/Day 3/07-The ternary operator.html`
-
-Read all seven files. Pay special attention to how `&&` and `||` work — they allow you to combine conditions.
-
----
-
 ## Video Tutorial
 
 - video-tabs

@@ -20,19 +20,6 @@ By the end of this session you will know the four main error types in JavaScript
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive:
-
-- `source/week 3/Day 4/01-Error-Types.html`
-- `source/week 3/Day 4/02-Try-Catch.html`
-- `source/week 3/Day 4/03-Throwing-Errors.html`
-- `source/week 3/Day 4/04-Nested-Try-Catch.html`
-
-Read each file once to get the big picture, then work through the Key Concepts section below.
-
----
-
 ## Video Tutorial
 
 - video-tabs

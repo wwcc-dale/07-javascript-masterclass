@@ -24,18 +24,6 @@ Take your time, use your notes, and review any Key Concepts sections you feel un
 
 ---
 
-## Reading Assignment
-
-There is no new reading for this session. Instead, review any of the following pages on the shared class drive that you feel you need to revisit:
-
-- Sessions 1–4 Key Concepts sections in Canvas
-- `source/week 1/Day 1/` — any files you want to review
-- `source/week 1/Day 3/` — any files you want to review
-
-Use this time to fill in any gaps before the graded quiz.
-
----
-
 ## Video Tutorial
 
 There is no new video for this session. If you want to review any concept, rewatch the relevant videos from Sessions 1–4 on the shared class drive.

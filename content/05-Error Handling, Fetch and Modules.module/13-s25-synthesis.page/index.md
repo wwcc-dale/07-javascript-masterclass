@@ -18,18 +18,6 @@ This is it — the last session of the course. Before the final exam and final p
 
 ---
 
-## Reading Assignment
-
-There are no new source files for this session. Instead, spend 10–15 minutes reviewing:
-
-- Your notes from Sessions 21–24
-- Your completed assignments from this credit
-- The Key Concepts sections from Sessions 21, 22, 23, and 24
-
-The review below covers the most important ideas from each session in this credit. Use it to refresh your memory before the project and exam.
-
----
-
 ## Video Tutorial
 
 There are no new videos for Session 25.

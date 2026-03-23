@@ -20,20 +20,6 @@ By the end of this session you will know how to write every major loop in JavaSc
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive. Open them in your browser:
-
-- `source/week 1/Day 4/01-for loop.html`
-- `source/week 1/Day 4/02-while loop.html`
-- `source/week 1/Day 4/03-do while loop.html`
-- `source/week 1/Day 4/04-for of loop.html`
-- `source/week 1/Day 4/05-for in loop.html`
-
-Read each page once. The Key Concepts section below explains all of these in plain language.
-
----
-
 ## Video Tutorial
 
 - video-tabs

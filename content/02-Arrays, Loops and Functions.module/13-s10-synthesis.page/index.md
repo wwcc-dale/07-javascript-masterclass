@@ -26,19 +26,6 @@ Now you will combine all four of these into a single program — a Student Grade
 
 ---
 
-## Reading Assignment
-
-There is no new reading for this session. Instead, review your notes and the Key Concepts sections from Sessions 6 through 9 on the shared class drive. You can also re-open any of the source HTML files you have already read:
-
-- `source/week 1/Day 2/` — Arrays
-- `source/week 1/Day 4/` — Loops
-- `source/week 2/Day 1/` — Functions
-- `source/week 2/Day 2/` — Higher-Order Methods
-
-Take 10–15 minutes to skim through your previous work and remind yourself how each piece fits together.
-
----
-
 ## Video Tutorial
 
 No new videos for this session. If you want to review any concept, re-watch the relevant videos from the shared class drive:

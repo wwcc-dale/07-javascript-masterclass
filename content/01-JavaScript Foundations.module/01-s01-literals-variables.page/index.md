@@ -19,24 +19,6 @@ By the end of this session you will know how to store information in a program, 
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive. They are short HTML pages you can open in a browser:
-
-- `source/week 1/Day 1/01-Literals.html`
-- `source/week 1/Day 1/02-Identifiers.html`
-- `source/week 1/Day 1/03-Variables.html`
-- `source/week 1/Day 1/04-Declaring variables.html`
-- `source/week 1/Day 1/05-The difference with let, const, var.html`
-- `source/week 1/Day 1/13-Semicolons.html`
-- `source/week 1/Day 1/14-White space.html`
-- `source/week 1/Day 1/15-Case sensitivity.html`
-- `source/week 1/Day 1/16-Comments.html`
-
-Read each page once. Do not worry if everything does not click right away. The Key Concepts section below explains everything in plain language.
-
----
-
 ## Video Tutorial
 
 - video-tabs

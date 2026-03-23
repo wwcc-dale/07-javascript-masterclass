@@ -20,21 +20,6 @@ JavaScript has built-in methods that let you manipulate strings — trim whitesp
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive:
-
-- `source/week 1/Day 1/11-Strings.html`
-- `source/week 1/Day 1/12-Numbers.html`
-- `source/week 1/Day 1/13-Semicolons.html`
-- `source/week 1/Day 1/14-White space.html`
-- `source/week 1/Day 1/15-Case sensitivity.html`
-- `source/week 1/Day 1/16-Comments.html`
-
-Pay close attention to the template literal syntax in the Strings file — backtick strings with `${}` inside them.
-
----
-
 ## Video Tutorial
 
 - video-tabs

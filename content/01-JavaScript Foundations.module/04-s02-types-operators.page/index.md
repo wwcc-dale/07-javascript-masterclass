@@ -19,20 +19,6 @@ Every value in JavaScript has a **type** — a category that tells JavaScript ho
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive:
-
-- `source/week 1/Day 1/06-Types.html`
-- `source/week 1/Day 1/07-Operators and expressions.html`
-- `source/week 1/Day 1/08-Let's start with arithmetic operators.html`
-- `source/week 1/Day 1/09-Operators precedence.html`
-- `source/week 1/Day 1/10-Rules of precedence.html`
-
-Read each one carefully. Pay special attention to the `typeof` examples and to how `===` behaves differently from `==`.
-
----
-
 ## Video Tutorial
 
 - video-tabs

@@ -20,18 +20,6 @@ By the end of this session you will know how to call `fetch()`, work with the Re
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive:
-
-- `source/week 4/Day 1/01-Fetch-Basics.html`
-- `source/week 4/Day 1/02-Response-Object.html`
-- `source/week 4/Day 1/03-JSON-Files.html`
-
-Read each file once for the big picture, then work through the Key Concepts section below.
-
----
-
 ## Video Tutorial
 
 - video-tabs

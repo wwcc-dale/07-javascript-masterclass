@@ -21,18 +21,6 @@ By the end of this session you will know how to export values from one file and 
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive:
-
-- `source/week 4/Day 2/01-Export-Import.html`
-- `source/week 4/Day 2/02-Named-Default.html`
-- `source/week 4/Day 2/03-Module-Structure.html`
-
-Read each file once, then work through the Key Concepts section below.
-
----
-
 ## Video Tutorial
 
 There are no recorded videos for this session. Work through the reading files on the shared class drive and use the Key Concepts section below as your primary reference.

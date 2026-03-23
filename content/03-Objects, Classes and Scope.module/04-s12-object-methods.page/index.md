@@ -20,23 +20,6 @@ By the end of this session you will be able to write objects that both hold and 
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive:
-
-- `source/week 2/Day 3/09-Object methods.html`
-- `source/week 2/Day 3/10-Accessing a property of the object inside a method using this.html`
-- `source/week 2/Day 3/16 apply, call, bind.html`
-- `source/week 2/Day 3/12-Object destructuring.html`
-- `source/week 2/Day 3/13-Renaming destructured properties.html`
-- `source/week 2/Day 3/14-Default values in destructuring.html`
-- `source/week 2/Day 3/15-Spread operator with objects.html`
-- `source/week 2/Day 3/16-Cloning and merging objects.html`
-
-Read each page once. The Key Concepts section below explains everything with clear examples.
-
----
-
 ## Video Tutorial
 
 - video-tabs

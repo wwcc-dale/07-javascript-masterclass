@@ -18,18 +18,6 @@ By the end of this session you will be able to write `async` functions, use `awa
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive:
-
-- `source/week 3/Day 1/06-Async functions.html`
-- `source/week 3/Day 1/07-Await.html`
-- `source/week 3/Day 1/08-Sequential and parallel.html`
-
-Read each page once, then work through the Key Concepts section below.
-
----
-
 ## Video Tutorial
 
 - video-tabs

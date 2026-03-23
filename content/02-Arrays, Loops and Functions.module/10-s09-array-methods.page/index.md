@@ -21,21 +21,6 @@ By the end of this session you will know how to use `forEach`, `map`, `filter`, 
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive. Open them in your browser:
-
-- `source/week 2/Day 2/01-forEach.html`
-- `source/week 2/Day 2/02-map.html`
-- `source/week 2/Day 2/03-filter.html`
-- `source/week 2/Day 2/04-find.html`
-- `source/week 2/Day 2/05-reduce.html`
-- `source/week 2/Day 2/06-sort.html`
-
-Read each page once. The Key Concepts section below explains everything with fresh examples.
-
----
-
 ## Video Tutorial
 
 - video-tabs

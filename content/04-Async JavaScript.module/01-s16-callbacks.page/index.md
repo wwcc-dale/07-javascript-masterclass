@@ -19,17 +19,6 @@ By the end of this session you will be able to use `setTimeout`, `setInterval`, 
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive:
-
-- `source/week 3/Day 1/01-Callbacks.html`
-- `source/week 3/Day 1/02-Timers.html`
-
-Read each page once, then work through the Key Concepts section below.
-
----
-
 ## Video Tutorial
 
 - video-tabs

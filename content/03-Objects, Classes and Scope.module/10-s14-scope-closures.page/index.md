@@ -19,22 +19,6 @@ The answer is **scope**. Understanding scope means you know exactly where each v
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive:
-
-- `source/week 3/Day 2/01-Global scope.html`
-- `source/week 3/Day 2/02-Function scope.html`
-- `source/week 3/Day 2/03-Block scope.html`
-- `source/week 3/Day 2/04-Variable shadowing.html`
-- `source/week 3/Day 2/05-Hoisting.html`
-- `source/week 3/Day 2/06-Closures.html`
-- `source/week 3/Day 2/07-Event loop overview.html`
-
-Read each page once before watching the videos. The Key Concepts section below covers everything with examples.
-
----
-
 ## Video Tutorial
 
 - video-tabs

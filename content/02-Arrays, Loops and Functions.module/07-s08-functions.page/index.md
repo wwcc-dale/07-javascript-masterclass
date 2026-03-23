@@ -19,22 +19,6 @@ A function is like a recipe. You write it once. You can follow it any number of 
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive. Open them in your browser:
-
-- `source/week 2/Day 1/01-Introduction to functions.html`
-- `source/week 2/Day 1/02-Function parameters.html`
-- `source/week 2/Day 1/03-Returning values from a function.html`
-- `source/week 2/Day 1/04-Arrow functions.html`
-- `source/week 2/Day 1/05-Nesting functions.html`
-- `source/week 2/Day 1/06-Immediately-invoked functions.html`
-- `source/week 2/Day 1/07-Recursive functions.html`
-
-Read each page once. The Key Concepts section below covers everything in plain language.
-
----
-
 ## Video Tutorial
 
 - video-tabs

@@ -24,19 +24,6 @@ Take your time with this page. If any part of the review feels shaky, go back to
 
 ---
 
-## Reading Assignment
-
-No new reading files for this session. Instead, review your notes and any code you wrote in Sessions 16–19.
-
-If you want to revisit specific topics, the source files are:
-
-- Callbacks and timers: `source/week 3/Day 1/01-Callbacks.html`, `02-Timers.html`
-- Promises: `source/week 3/Day 1/03-Promises.html`, `04-Promise chaining.html`, `05-Promise.all and race.html`
-- Async/await: `source/week 3/Day 1/06-Async functions.html`, `07-Await.html`, `08-Sequential and parallel.html`
-- Built-in objects: `source/week 3/Day 3/` (all seven files)
-
----
-
 ## Video Tutorial
 
 No new videos for this session. If you need a refresher on any topic, the videos are on the shared class drive in `source/week 3/Day 1/` (async topics) and `source/week 3/Day 3/` (built-in objects).

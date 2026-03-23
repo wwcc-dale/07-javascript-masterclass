@@ -18,21 +18,6 @@ That is exactly what arrays are for. By the end of this session you will know ho
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive. Open them in your browser:
-
-- `source/week 1/Day 2/01-Arrays.html`
-- `source/week 1/Day 2/02-Array length.html`
-- `source/week 1/Day 2/03-Array map.html`
-- `source/week 1/Day 2/04-Array filter.html`
-- `source/week 1/Day 2/05-Array push unshift.html`
-- `source/week 1/Day 2/06-Array concat.html`
-
-Read each page once. The Key Concepts section below will explain everything in plain language with fresh examples.
-
----
-
 ## Video Tutorial
 
 - video-tabs

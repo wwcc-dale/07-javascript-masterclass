@@ -23,22 +23,6 @@ By the end of this session you will be able to generate random numbers, work wit
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive:
-
-- `source/week 3/Day 3/01-Math.html`
-- `source/week 3/Day 3/02-Dates.html`
-- `source/week 3/Day 3/03-JSON.html`
-- `source/week 3/Day 3/04-String methods.html`
-- `source/week 3/Day 3/05-Number methods.html`
-- `source/week 3/Day 3/06-Set.html`
-- `source/week 3/Day 3/07-Map.html`
-
-Read each page. There is a lot here — work through the Key Concepts section below to see all the most important parts in one place.
-
----
-
 ## Video Tutorial
 
 There are no recorded videos for this session. Work through the reading files on the shared class drive and use the Key Concepts section below as your primary reference. The browser console (F12) is your best tool for experimenting with each built-in object as you read.

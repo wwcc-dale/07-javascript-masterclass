@@ -19,23 +19,6 @@ That is exactly what an **object** does. By the end of this session you will kno
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive. Open them in your browser:
-
-- `source/week 2/Day 3/01-Object literals.html`
-- `source/week 2/Day 3/02-Object properties.html`
-- `source/week 2/Day 3/03-Accessing object properties.html`
-- `source/week 2/Day 3/04-Adding properties.html`
-- `source/week 2/Day 3/05-Removing properties.html`
-- `source/week 2/Day 3/06-Pass by reference.html`
-- `source/week 2/Day 3/07-Checking if a property exists.html`
-- `source/week 2/Day 3/08-Iterating over object properties.html`
-
-Read each page once. The Key Concepts section below covers everything you need in plain language.
-
----
-
 ## Video Tutorial
 
 - video-tabs

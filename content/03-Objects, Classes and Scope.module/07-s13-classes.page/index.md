@@ -19,20 +19,6 @@ A **class** solves this problem. You write the structure once, and then use the 
 
 ---
 
-## Reading Assignment
-
-Read the following files from the course materials on the shared class drive:
-
-- `source/week 2/Day 4/01-Class syntax.html`
-- `source/week 2/Day 4/02-Constructor method.html`
-- `source/week 2/Day 4/03-Class properties.html`
-- `source/week 2/Day 4/04-Class methods.html`
-- `source/week 2/Day 4/05-Class naming convention.html`
-
-Read each page once. The Key Concepts section below covers everything with clear examples.
-
----
-
 ## Video Tutorial
 
 There are no recorded videos for this session. Work through the reading files on the shared class drive and use the Key Concepts section below as your primary reference. Type every example in the Key Concepts section yourself in the browser console — classes click fastest when you see instances being created in real code.
