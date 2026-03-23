@@ -115,15 +115,18 @@ You will create four files in the same folder:
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all steps as described. Create all four files, export and import correctly, and verify all output in the console.
-- Intermediate — More challenge
-  - Add a fourth named export to `utils.js` called `average(arr)` that takes an array of numbers and returns their average. Import it in `app.js` and use it to calculate and log the average score from the `people` array (using the original scores, not clamped ones). Also add a named export to `data.js` — a constant called `MAX_SCORE` set to `200`. Import it in `app.js` and log it.
-- Advanced — Push yourself
-  - Write a fifth utility function `groupBy(arr, key)` that takes an array of objects and a key name, and returns an object where each unique value of that key is a property containing an array of matching objects. For example, `groupBy(people, "age")` would group all people by their age. Export it from `utils.js`, import it in `app.js`, and use it to group the `people` array by a property of your choice. Log the resulting grouped object. This is the same pattern as `Array.prototype.reduce` for grouping, but as a reusable utility.
+###### Base — Required for everyone
+Complete all steps as described. Create all four files, export and import correctly, and verify all output in the console.
+
+###### Intermediate — More challenge
+Add a fourth named export to `utils.js` called `average(arr)` that takes an array of numbers and returns their average. Import it in `app.js` and use it to calculate and log the average score from the `people` array (using the original scores, not clamped ones). Also add a named export to `data.js` — a constant called `MAX_SCORE` set to `200`. Import it in `app.js` and log it.
+
+###### Advanced — Push yourself
+Write a fifth utility function `groupBy(arr, key)` that takes an array of objects and a key name, and returns an object where each unique value of that key is a property containing an array of matching objects. For example, `groupBy(people, "age")` would group all people by their age. Export it from `utils.js`, import it in `app.js`, and use it to group the `people` array by a property of your choice. Log the resulting grouped object. This is the same pattern as `Array.prototype.reduce` for grouping, but as a reusable utility.
+
+---
 
 {{include:session-footer}}
 

@@ -115,15 +115,18 @@ You will create a file called `safe-math.html`. Inside a `<script>` tag you will
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all steps as described. Write both functions, test each with valid and invalid inputs, use try/catch with finally, and log the error name and message for the TypeError.
-- Intermediate — More challenge
-  - Write a third function called `clampedValue(value, min, max)`. If `value` is less than `min` or greater than `max`, throw a `RangeError` with a message like `"Value 150 is out of range [0, 100]"`. Test it with values inside and outside the range. In the catch block, use `error instanceof RangeError` to check the error type and log a specific message for that case.
-- Advanced — Push yourself
-  - Write a function called `safeRun(fn, ...args)` that accepts any function and its arguments, wraps the call in try/catch, and returns an object `{ ok: true, value: result }` on success or `{ ok: false, error: error.message }` on failure. Test it with `safeDivide`, `parseNumber`, and `clampedValue`. Log each result object so the structure is clear. This pattern — returning a result object instead of throwing — is used in many real-world libraries.
+###### Base — Required for everyone
+Complete all steps as described. Write both functions, test each with valid and invalid inputs, use try/catch with finally, and log the error name and message for the TypeError.
+
+###### Intermediate — More challenge
+Write a third function called `clampedValue(value, min, max)`. If `value` is less than `min` or greater than `max`, throw a `RangeError` with a message like `"Value 150 is out of range [0, 100]"`. Test it with values inside and outside the range. In the catch block, use `error instanceof RangeError` to check the error type and log a specific message for that case.
+
+###### Advanced — Push yourself
+Write a function called `safeRun(fn, ...args)` that accepts any function and its arguments, wraps the call in try/catch, and returns an object `{ ok: true, value: result }` on success or `{ ok: false, error: error.message }` on failure. Test it with `safeDivide`, `parseNumber`, and `clampedValue`. Log each result object so the structure is clear. This pattern — returning a result object instead of throwing — is used in many real-world libraries.
+
+---
 
 {{include:session-footer}}
 

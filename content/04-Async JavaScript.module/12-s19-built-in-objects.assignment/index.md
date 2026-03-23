@@ -125,15 +125,18 @@ You will create a file called `built-in-objects.html`. Your script will have fiv
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all five parts as described above.
-- Intermediate — More challenge
-  - Extend Part 1: after generating the 10 random numbers, also log the median value (sort the array first, then find the middle element). Extend Part 2: log the full day name (Monday, Tuesday, etc.) using an array of day names and `getDay()` as the index.
-- Advanced — Push yourself
-  - Extend Part 5: after building the word frequency Map, find and log the word that appears most often (the mode). Then filter the words array to only unique words (use a Set) and log how many unique words are in the sentence. Finally, use `JSON.stringify` to convert the frequency counts to a plain object and log the result so you can see the full word count in JSON format.
+###### Base — Required for everyone
+Complete all five parts as described above.
+
+###### Intermediate — More challenge
+Extend Part 1: after generating the 10 random numbers, also log the median value (sort the array first, then find the middle element). Extend Part 2: log the full day name (Monday, Tuesday, etc.) using an array of day names and `getDay()` as the index.
+
+###### Advanced — Push yourself
+Extend Part 5: after building the word frequency Map, find and log the word that appears most often (the mode). Then filter the words array to only unique words (use a Set) and log how many unique words are in the sentence. Finally, use `JSON.stringify` to convert the frequency counts to a plain object and log the result so you can see the full word count in JSON format.
+
+---
 
 {{include:session-footer}}
 

@@ -120,15 +120,18 @@ You decide whether each variable uses `let` or `const`. Think about whether the 
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Declare and log all five required variables as described above. Use `let` or `const` correctly. All five values appear in the console.
-- Intermediate — More challenge
-  - Add a label to each `console.log()` so the output reads like `"Name: Jordan"` instead of just `"Jordan"`. Use string concatenation (joining strings with `+`) to combine the label and the value. Example: `console.log("Name: " + name);`
-- Advanced — Push yourself
-  - Declare two additional variables: `fullGreeting` (a string that combines your name and city — for example, `"Jordan from Wellington"`) and `nextBirthday` (your age plus one). Log both. Then add a comment block at the top of your `<script>` explaining what each variable stores and why you chose `let` or `const` for it.
+###### Base — Required for everyone
+Declare and log all five required variables as described above. Use `let` or `const` correctly. All five values appear in the console.
+
+###### Intermediate — More challenge
+Add a label to each `console.log()` so the output reads like `"Name: Jordan"` instead of just `"Jordan"`. Use string concatenation (joining strings with `+`) to combine the label and the value. Example: `console.log("Name: " + name);`
+
+###### Advanced — Push yourself
+Declare two additional variables: `fullGreeting` (a string that combines your name and city — for example, `"Jordan from Wellington"`) and `nextBirthday` (your age plus one). Log both. Then add a comment block at the top of your `<script>` explaining what each variable stores and why you chose `let` or `const` for it.
+
+---
 
 {{include:session-footer}}
 

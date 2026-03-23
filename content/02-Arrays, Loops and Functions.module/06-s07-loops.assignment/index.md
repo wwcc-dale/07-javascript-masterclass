@@ -75,15 +75,18 @@ You will create a file called `loops.js` (or `loops.html` with a `<script>` bloc
 - Code runs without errors
 - Variable names are meaningful (not `a`, `i2`, `x`)
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all three tasks as described. All output must appear in the console with no errors. Every student must reach this level.
-- Intermediate — If you finish Base with time remaining
-  - Add a fourth task using a `for` loop that prints only the **even** numbers between 1 and 20. Use the `continue` keyword to skip odd numbers. Also add a fifth task: use a `for` loop that starts at 1, prints numbers, and uses `break` to stop as soon as it reaches a number that is greater than 7.
-- Advanced — Challenge yourself
-  - Create an array of 10 numbers (mix of positive and negative). Write a `for...of` loop that adds up only the positive numbers and logs the total. Then write a second loop that finds the largest number in the array without using any built-in Math methods — just a loop and an `if` statement. Log the largest number at the end.
+###### Base — Required for everyone
+Complete all three tasks as described. All output must appear in the console with no errors. Every student must reach this level.
+
+###### Intermediate — If you finish Base with time remaining
+Add a fourth task using a `for` loop that prints only the **even** numbers between 1 and 20. Use the `continue` keyword to skip odd numbers. Also add a fifth task: use a `for` loop that starts at 1, prints numbers, and uses `break` to stop as soon as it reaches a number that is greater than 7.
+
+###### Advanced — Challenge yourself
+Create an array of 10 numbers (mix of positive and negative). Write a `for...of` loop that adds up only the positive numbers and logs the total. Then write a second loop that finds the largest number in the array without using any built-in Math methods — just a loop and an `if` statement. Log the largest number at the end.
+
+---
 
 {{include:session-footer}}
 

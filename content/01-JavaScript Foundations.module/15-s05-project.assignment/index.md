@@ -152,15 +152,18 @@ Copy this into your `quiz-app.html` file to get started:
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Build the quiz exactly as described: two trivia questions on your chosen topic, four buttons, correct/wrong feedback, score counter, Next Question button. Everything works end-to-end.
-- Intermediate — More challenge
-  - Add a third question. After the quiz ends, show a letter grade based on score: "A — Quiz Master!" for 3/3, "B — Nice Work!" for 2/3, and "C — Keep Studying!" for 1 or less. Use `if/else if/else`. Also give your quiz a proper title in the `<h1>` that describes the topic (e.g. "Animal Kingdom Trivia" or "Premier League Quiz").
-- Advanced — Push yourself
-  - Style your quiz to look polished: after an answer is chosen, turn the correct answer button green and any wrong button clicked red. Use `.style.backgroundColor`. Display the question number and total ("Question 2 of 3") in a `<p id="question-counter">`. Reset button colors when loading the next question. Also add a topic image or emoji banner at the top using `document.getElementById("banner").textContent`.
+###### Base — Required for everyone
+Build the quiz exactly as described: two trivia questions on your chosen topic, four buttons, correct/wrong feedback, score counter, Next Question button. Everything works end-to-end.
+
+###### Intermediate — More challenge
+Add a third question. After the quiz ends, show a letter grade based on score: "A — Quiz Master!" for 3/3, "B — Nice Work!" for 2/3, and "C — Keep Studying!" for 1 or less. Use `if/else if/else`. Also give your quiz a proper title in the `<h1>` that describes the topic (e.g. "Animal Kingdom Trivia" or "Premier League Quiz").
+
+###### Advanced — Push yourself
+Style your quiz to look polished: after an answer is chosen, turn the correct answer button green and any wrong button clicked red. Use `.style.backgroundColor`. Display the question number and total ("Question 2 of 3") in a `<p id="question-counter">`. Reset button colors when loading the next question. Also add a topic image or emoji banner at the top using `document.getElementById("banner").textContent`.
+
+---
 
 {{include:session-footer}}
 

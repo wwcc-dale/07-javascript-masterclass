@@ -84,15 +84,18 @@ Each product object must have at least these three properties:
 - All variable names are meaningful
 - Code runs without errors
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all 7 steps above. All results must be logged with labels. Every student must reach this level.
-- Intermediate — If you finish Base with time remaining
-  - Add a `sort` step: sort the `inStock` array by price from lowest to highest using a compare function. Log the sorted array. Also use `forEach` to print a sentence for each in-stock product: `"Notebook costs $4.99"`. Use template literals (backtick strings from Credit 1) if you know them, or string concatenation if you prefer.
-- Advanced — Challenge yourself
-  - Write a function called `summarize(productList)` that accepts an array of product objects and logs: (1) total number of products, (2) number of products in stock, (3) total value of all in-stock products, and (4) the name and price of the most expensive in-stock product. Use `filter`, `map`, `reduce`, and `find` or a loop inside the function. Call `summarize(products)` at the end. All output must be clearly labelled.
+###### Base — Required for everyone
+Complete all 7 steps above. All results must be logged with labels. Every student must reach this level.
+
+###### Intermediate — If you finish Base with time remaining
+Add a `sort` step: sort the `inStock` array by price from lowest to highest using a compare function. Log the sorted array. Also use `forEach` to print a sentence for each in-stock product: `"Notebook costs $4.99"`. Use template literals (backtick strings from Credit 1) if you know them, or string concatenation if you prefer.
+
+###### Advanced — Challenge yourself
+Write a function called `summarize(productList)` that accepts an array of product objects and logs: (1) total number of products, (2) number of products in stock, (3) total value of all in-stock products, and (4) the name and price of the most expensive in-stock product. Use `filter`, `map`, `reduce`, and `find` or a loop inside the function. Call `summarize(products)` at the end. All output must be clearly labelled.
+
+---
 
 {{include:session-footer}}
 

@@ -113,15 +113,18 @@ You will create a file called `promises.html`. Your script will:
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Define `delay`, chain three steps, add `.catch()` and `.finally()`, and demonstrate a rejected Promise as described above.
-- Intermediate — More challenge
-  - Add a fourth part using `Promise.all`. Create three `delay` calls with different durations (e.g., 300 ms, 700 ms, 400 ms with labels "Alpha", "Beta", "Gamma"). Run them with `Promise.all` and log the results array. Add a timestamp log before and after so you can see how long `Promise.all` took compared to running them sequentially.
-- Advanced — Push yourself
-  - Implement a `timeout(ms)` function that returns a Promise that rejects after `ms` milliseconds with the message `"Timed out!"`. Then use `Promise.race` to race a `delay(2000, "Slow task")` against `timeout(1000)`. The race should reject because the timeout wins. Handle the rejection with `.catch()`. Then race a `delay(500, "Fast task")` against `timeout(1000)` — this time the task should win. Log whether each race was won by the task or the timeout.
+###### Base — Required for everyone
+Define `delay`, chain three steps, add `.catch()` and `.finally()`, and demonstrate a rejected Promise as described above.
+
+###### Intermediate — More challenge
+Add a fourth part using `Promise.all`. Create three `delay` calls with different durations (e.g., 300 ms, 700 ms, 400 ms with labels "Alpha", "Beta", "Gamma"). Run them with `Promise.all` and log the results array. Add a timestamp log before and after so you can see how long `Promise.all` took compared to running them sequentially.
+
+###### Advanced — Push yourself
+Implement a `timeout(ms)` function that returns a Promise that rejects after `ms` milliseconds with the message `"Timed out!"`. Then use `Promise.race` to race a `delay(2000, "Slow task")` against `timeout(1000)`. The race should reject because the timeout wins. Handle the rejection with `.catch()`. Then race a `delay(500, "Fast task")` against `timeout(1000)` — this time the task should win. Log whether each race was won by the task or the timeout.
+
+---
 
 {{include:session-footer}}
 

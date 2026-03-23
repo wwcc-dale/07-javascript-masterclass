@@ -168,15 +168,18 @@ On the results screen, use the Map to find:
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Countdown timer (auto-expire), question delay, total time tracking with Map, upgraded results screen showing time stats.
-- Intermediate — More challenge
-  - Add an **animated timer bar** below the clock. It starts full-width and shrinks each second. Use a `<div>` inside a fixed-width container and update `style.width` each tick: `Math.round((timeLeft / 15) * 100) + "%"`. Change its color: green above 10s, orange 6–10s, red 5s and below. The visual urgency makes the quiz feel much more exciting.
-- Advanced — Push yourself
-  - Add a **persistent leaderboard** using `localStorage`. After each quiz, ask for the player's name, save the top 10 scores as JSON with `localStorage.setItem(...)`. On page load, read them back and show them on a start screen. Use a `Set` to prevent duplicate names (keep the highest score if the same name plays again). The leaderboard survives a page reload — come back the next day and your high score is still there.
+###### Base — Required for everyone
+Countdown timer (auto-expire), question delay, total time tracking with Map, upgraded results screen showing time stats.
+
+###### Intermediate — More challenge
+Add an **animated timer bar** below the clock. It starts full-width and shrinks each second. Use a `<div>` inside a fixed-width container and update `style.width` each tick: `Math.round((timeLeft / 15) * 100) + "%"`. Change its color: green above 10s, orange 6–10s, red 5s and below. The visual urgency makes the quiz feel much more exciting.
+
+###### Advanced — Push yourself
+Add a **persistent leaderboard** using `localStorage`. After each quiz, ask for the player's name, save the top 10 scores as JSON with `localStorage.setItem(...)`. On page load, read them back and show them on a start screen. Use a `Set` to prevent duplicate names (keep the highest score if the same name plays again). The leaderboard survives a page reload — come back the next day and your high score is still there.
+
+---
 
 {{include:session-footer}}
 

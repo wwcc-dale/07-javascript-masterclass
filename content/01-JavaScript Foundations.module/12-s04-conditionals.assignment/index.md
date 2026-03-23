@@ -96,15 +96,18 @@ Test your program with at least three different score values to make sure all br
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Implement the five-grade if/else chain and log the result. Test with at least three different scores.
-- Intermediate — More challenge
-  - Add a second variable `passFail` that is `"Pass"` if the grade is A, B, or C and `"Fail"` otherwise. Use the `||` operator to combine conditions. Log a second message like: `"Result: Pass"`. Then add a ternary operator that assigns a short feedback message — `"Great job!"` for A or B, `"Keep working"` for anything else — and log it too.
-- Advanced — Push yourself
-  - Add input validation using a nested conditional. Before running the grade logic, check if `score` is a number between 0 and 100. If it is less than 0 or greater than 100, log `"Invalid score — please enter a number between 0 and 100."` and do not run the grade logic. Then add a `switch` statement that, based on the letter grade, logs a specific tip message (for example: grade A gets "Outstanding work!", grade B gets "Good job — push for that A next time!", etc.).
+###### Base — Required for everyone
+Implement the five-grade if/else chain and log the result. Test with at least three different scores.
+
+###### Intermediate — More challenge
+Add a second variable `passFail` that is `"Pass"` if the grade is A, B, or C and `"Fail"` otherwise. Use the `||` operator to combine conditions. Log a second message like: `"Result: Pass"`. Then add a ternary operator that assigns a short feedback message — `"Great job!"` for A or B, `"Keep working"` for anything else — and log it too.
+
+###### Advanced — Push yourself
+Add input validation using a nested conditional. Before running the grade logic, check if `score` is a number between 0 and 100. If it is less than 0 or greater than 100, log `"Invalid score — please enter a number between 0 and 100."` and do not run the grade logic. Then add a `switch` statement that, based on the letter grade, logs a specific tip message (for example: grade A gets "Outstanding work!", grade B gets "Good job — push for that A next time!", etc.).
+
+---
 
 {{include:session-footer}}
 

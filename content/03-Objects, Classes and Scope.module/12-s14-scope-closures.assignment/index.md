@@ -112,15 +112,18 @@ You will create a file called `scope-closures.html` with three distinct sections
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all three examples with correct behavior and comments as described.
-- Intermediate — More challenge
-  - Add a fourth example demonstrating hoisting. Create a `var` variable and log it **before** its declaration line — this will print `undefined` because `var` declarations are hoisted to the top of their scope (but not the value). Then add a `var`-declared function expression and a regular function declaration, and demonstrate that the function declaration is also hoisted (can be called before the line it is written). Add a comment block explaining the difference between how `var` and `let`/`const` are hoisted — mention that `let`/`const` also hoist but are in the Temporal Dead Zone (TDZ) until their declaration line, meaning accessing them early would cause a ReferenceError (do not attempt to trigger this — just explain it in the comment).
-- Advanced — Push yourself
-  - Extend your closure counter from Example 3 to also support a `decrement()` method, a `getCount()` method, and a minimum value of 0 (decrement should not go below 0). Then create two separate counters using `makeCounter()` and show that their `count` variables are completely independent — incrementing one does not affect the other. Log both counters' values after several calls to prove this.
+###### Base — Required for everyone
+Complete all three examples with correct behavior and comments as described.
+
+###### Intermediate — More challenge
+Add a fourth example demonstrating hoisting. Create a `var` variable and log it **before** its declaration line — this will print `undefined` because `var` declarations are hoisted to the top of their scope (but not the value). Then add a `var`-declared function expression and a regular function declaration, and demonstrate that the function declaration is also hoisted (can be called before the line it is written). Add a comment block explaining the difference between how `var` and `let`/`const` are hoisted — mention that `let`/`const` also hoist but are in the Temporal Dead Zone (TDZ) until their declaration line, meaning accessing them early would cause a ReferenceError (do not attempt to trigger this — just explain it in the comment).
+
+###### Advanced — Push yourself
+Extend your closure counter from Example 3 to also support a `decrement()` method, a `getCount()` method, and a minimum value of 0 (decrement should not go below 0). Then create two separate counters using `makeCounter()` and show that their `count` variables are completely independent — incrementing one does not affect the other. Log both counters' values after several calls to prove this.
+
+---
 
 {{include:session-footer}}
 

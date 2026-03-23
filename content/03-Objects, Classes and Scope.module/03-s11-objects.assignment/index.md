@@ -112,15 +112,18 @@ You will create a file called `contact-card.html`. Inside it, you will write a `
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all steps as described. Create the contact object, add and delete properties, loop and log, and demonstrate pass-by-reference with a comment explaining it.
-- Intermediate — More challenge
-  - After the `for...in` loop, add three separate `console.log()` calls using `Object.keys()`, `Object.values()`, and `Object.entries()`. Label each one so the console output is clear (e.g., `"Keys: " + Object.keys(contact)`). Also use `"email" in contact` and `"age" in contact` to check which properties exist after deletion, and log the results.
-- Advanced — Push yourself
-  - Write a function called `printContact(obj)` that takes any object as a parameter and logs a neatly formatted summary of all its properties to the console. Call it with your `contact` object. Then create a second object called `workContact` with different properties and call `printContact` with that one too. Your function should work for any object, not just contacts.
+###### Base — Required for everyone
+Complete all steps as described. Create the contact object, add and delete properties, loop and log, and demonstrate pass-by-reference with a comment explaining it.
+
+###### Intermediate — More challenge
+After the `for...in` loop, add three separate `console.log()` calls using `Object.keys()`, `Object.values()`, and `Object.entries()`. Label each one so the console output is clear (e.g., `"Keys: " + Object.keys(contact)`). Also use `"email" in contact` and `"age" in contact` to check which properties exist after deletion, and log the results.
+
+###### Advanced — Push yourself
+Write a function called `printContact(obj)` that takes any object as a parameter and logs a neatly formatted summary of all its properties to the console. Call it with your `contact` object. Then create a second object called `workContact` with different properties and call `printContact` with that one too. Your function should work for any object, not just contacts.
+
+---
 
 {{include:session-footer}}
 

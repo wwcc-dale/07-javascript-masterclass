@@ -111,15 +111,18 @@ You will create a file called `callbacks-timers.html`. Inside it you will write 
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all three parts as described above. The setTimeout fires at 3 seconds, the interval counts to 5 and stops, and the custom callback function works correctly.
-- Intermediate — More challenge
-  - Modify Part 2 so the interval also displays the current count on the page inside a `<p>` element (use `document.getElementById` or `document.querySelector`). The page text should update live as the counter ticks. When the counter reaches 5, the page should display "Done!" instead of the count.
-- Advanced — Push yourself
-  - Add a fourth part: write a function called `repeatTask(task, times, delayMs)` that accepts a callback function `task`, a number `times`, and a delay `delayMs`. The function should call `task` exactly `times` times, spaced `delayMs` apart, using `setTimeout` (not `setInterval`). Each call should pass the current call number (1, 2, 3…) to `task`. Demonstrate it by calling `repeatTask` with a callback that logs `"Task run #" + n` and settings of your choice.
+###### Base — Required for everyone
+Complete all three parts as described above. The setTimeout fires at 3 seconds, the interval counts to 5 and stops, and the custom callback function works correctly.
+
+###### Intermediate — More challenge
+Modify Part 2 so the interval also displays the current count on the page inside a `<p>` element (use `document.getElementById` or `document.querySelector`). The page text should update live as the counter ticks. When the counter reaches 5, the page should display "Done!" instead of the count.
+
+###### Advanced — Push yourself
+Add a fourth part: write a function called `repeatTask(task, times, delayMs)` that accepts a callback function `task`, a number `times`, and a delay `delayMs`. The function should call `task` exactly `times` times, spaced `delayMs` apart, using `setTimeout` (not `setInterval`). Each call should pass the current call number (1, 2, 3…) to `task`. Demonstrate it by calling `repeatTask` with a callback that logs `"Task run #" + n` and settings of your choice.
+
+---
 
 {{include:session-footer}}
 

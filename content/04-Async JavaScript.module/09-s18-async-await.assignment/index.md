@@ -121,15 +121,18 @@ You will create a file called `async-await.html`. Your script will:
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all four parts as described: delay helper, runSequential with timing, runParallel with timing, and riskyTask with try/catch.
-- Intermediate — More challenge
-  - Modify `runSequential` so that the result of each step is passed as part of the label for the next step. For example, after awaiting `delay(400, "Alpha")`, pass the result string to the next delay as part of its label: `delay(400, result + " → Beta")`. Chain all three this way so the final logged value shows the full history: `"Alpha complete → Beta complete → Gamma complete"`.
-- Advanced — Push yourself
-  - Write an async function called `runWithTimeout(task, ms)` that accepts a Promise-returning function `task` and a number `ms`. It should race `task()` against a timeout Promise that rejects after `ms` milliseconds. If the timeout wins, log `"Task timed out"`. If the task wins, log `"Task completed: " + result`. Demonstrate it twice: once where the task finishes in time (`delay(300, "Quick")`  with a 500 ms timeout) and once where it does not (`delay(800, "Slow")` with a 500 ms timeout).
+###### Base — Required for everyone
+Complete all four parts as described: delay helper, runSequential with timing, runParallel with timing, and riskyTask with try/catch.
+
+###### Intermediate — More challenge
+Modify `runSequential` so that the result of each step is passed as part of the label for the next step. For example, after awaiting `delay(400, "Alpha")`, pass the result string to the next delay as part of its label: `delay(400, result + " → Beta")`. Chain all three this way so the final logged value shows the full history: `"Alpha complete → Beta complete → Gamma complete"`.
+
+###### Advanced — Push yourself
+Write an async function called `runWithTimeout(task, ms)` that accepts a Promise-returning function `task` and a number `ms`. It should race `task()` against a timeout Promise that rejects after `ms` milliseconds. If the timeout wins, log `"Task timed out"`. If the task wins, log `"Task completed: " + result`. Demonstrate it twice: once where the task finishes in time (`delay(300, "Quick")`  with a 500 ms timeout) and once where it does not (`delay(800, "Slow")` with a 500 ms timeout).
+
+---
 
 {{include:session-footer}}
 

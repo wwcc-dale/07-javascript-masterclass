@@ -106,15 +106,18 @@ Your name has 6 characters.
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all the steps above: declare, trim, uppercase, round, find length, and log three template literal lines.
-- Intermediate — More challenge
-  - Add a fourth line of output that uses `.includes()` to check whether the user's name contains a specific letter (for example, the letter "a") and logs a message like: `"Does your name contain the letter 'a'? true"`. Also add a fifth line that uses `.slice()` to log just the first three characters of the cleaned name.
-- Advanced — Push yourself
-  - Add a "name report" section that logs six pieces of information about the name: the original (untrimmed), the trimmed version, the uppercase version, the lowercase version, the length, and the result of checking if the name includes at least one specific letter. Format all six lines using template literals. Then add `Number.parseFloat()` to convert a string like `"9.5 stars"` to a number, log the result, and explain in a comment what `.parseFloat()` does with the extra text.
+###### Base — Required for everyone
+Complete all the steps above: declare, trim, uppercase, round, find length, and log three template literal lines.
+
+###### Intermediate — More challenge
+Add a fourth line of output that uses `.includes()` to check whether the user's name contains a specific letter (for example, the letter "a") and logs a message like: `"Does your name contain the letter 'a'? true"`. Also add a fifth line that uses `.slice()` to log just the first three characters of the cleaned name.
+
+###### Advanced — Push yourself
+Add a "name report" section that logs six pieces of information about the name: the original (untrimmed), the trimmed version, the uppercase version, the lowercase version, the length, and the result of checking if the name includes at least one specific letter. Format all six lines using template literals. Then add `Number.parseFloat()` to convert a string like `"9.5 stars"` to a number, log the result, and explain in a comment what `.parseFloat()` does with the extra text.
+
+---
 
 {{include:session-footer}}
 

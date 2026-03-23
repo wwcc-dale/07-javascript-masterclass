@@ -111,15 +111,18 @@ You will create a file called `bank-account.html`. Inside it, you will write a `
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all steps as described. Define the BankAccount class with all three methods, create 3 instances, and demonstrate deposit, withdraw (including an "Insufficient funds" case), and summary.
-- Intermediate — More challenge
-  - Add a `transactionHistory` property (an empty array in the constructor). Each time `deposit()` or `withdraw()` is called successfully, push a record into `transactionHistory` — an object with `type` ("deposit" or "withdrawal") and `amount`. Add a `printHistory()` method that loops through `transactionHistory` and logs each transaction. Call `printHistory()` on one of your accounts after several transactions.
-- Advanced — Push yourself
-  - Add a `transfer(amount, targetAccount)` method. It should withdraw `amount` from `this` account and deposit it into `targetAccount` — only if `this` has sufficient funds. If not, log "Transfer failed: Insufficient funds". Demonstrate a successful transfer and a failed one. Then write a regular function (outside the class) called `richestAccount(accounts)` that takes an array of BankAccount instances and returns the one with the highest balance. Create 4 accounts, put them in an array, and log `richestAccount(accounts).summary()`.
+###### Base — Required for everyone
+Complete all steps as described. Define the BankAccount class with all three methods, create 3 instances, and demonstrate deposit, withdraw (including an "Insufficient funds" case), and summary.
+
+###### Intermediate — More challenge
+Add a `transactionHistory` property (an empty array in the constructor). Each time `deposit()` or `withdraw()` is called successfully, push a record into `transactionHistory` — an object with `type` ("deposit" or "withdrawal") and `amount`. Add a `printHistory()` method that loops through `transactionHistory` and logs each transaction. Call `printHistory()` on one of your accounts after several transactions.
+
+###### Advanced — Push yourself
+Add a `transfer(amount, targetAccount)` method. It should withdraw `amount` from `this` account and deposit it into `targetAccount` — only if `this` has sufficient funds. If not, log "Transfer failed: Insufficient funds". Demonstrate a successful transfer and a failed one. Then write a regular function (outside the class) called `richestAccount(accounts)` that takes an array of BankAccount instances and returns the one with the highest balance. Create 4 accounts, put them in an array, and log `richestAccount(accounts).summary()`.
+
+---
 
 {{include:session-footer}}
 

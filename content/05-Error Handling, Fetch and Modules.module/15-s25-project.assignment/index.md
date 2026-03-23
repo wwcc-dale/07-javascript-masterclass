@@ -205,15 +205,18 @@ Add `<p id="status"></p>` near the top of your `<body>`.
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Questions load from `questions.json` via `fetch`. Three-file structure (`quiz-app.html`, `quiz.js`, `loader.js`). Full error handling displayed on screen. Validation catches missing fields. All Credit 4 features preserved.
-- Intermediate — More challenge
-  - Add **multiple question sets** as separate JSON files — e.g. `questions-easy.json` and `questions-hard.json`, or two different topic files (e.g. `questions-animals.json` and `questions-geography.json`). Add a start screen where the player picks which set to play. Pass the chosen filename to `loadQuestions()`. Handle the case where a chosen file is missing with a friendly on-screen error message.
-- Advanced — Push yourself
-  - Add a **statistics module**. Create `stats.js` that exports a `QuizStats` class. It stores all completed quiz sessions (score, total, time taken, date using `new Date().toLocaleDateString()`) in `localStorage` as JSON. Methods: `record(session)`, `allSessions()`, `average()` (average % across all plays), `best()` (highest-scoring session). Show a "Your History" section on the results screen. Handle `localStorage` being unavailable (some browsers block it) with a `try/catch` that silently skips saving — your app should never crash because of this.
+###### Base — Required for everyone
+Questions load from `questions.json` via `fetch`. Three-file structure (`quiz-app.html`, `quiz.js`, `loader.js`). Full error handling displayed on screen. Validation catches missing fields. All Credit 4 features preserved.
+
+###### Intermediate — More challenge
+Add **multiple question sets** as separate JSON files — e.g. `questions-easy.json` and `questions-hard.json`, or two different topic files (e.g. `questions-animals.json` and `questions-geography.json`). Add a start screen where the player picks which set to play. Pass the chosen filename to `loadQuestions()`. Handle the case where a chosen file is missing with a friendly on-screen error message.
+
+###### Advanced — Push yourself
+Add a **statistics module**. Create `stats.js` that exports a `QuizStats` class. It stores all completed quiz sessions (score, total, time taken, date using `new Date().toLocaleDateString()`) in `localStorage` as JSON. Methods: `record(session)`, `allSessions()`, `average()` (average % across all plays), `best()` (highest-scoring session). Show a "Your History" section on the results screen. Handle `localStorage` being unavailable (some browsers block it) with a `try/catch` that silently skips saving — your app should never crash because of this.
+
+---
 
 {{include:session-footer}}
 

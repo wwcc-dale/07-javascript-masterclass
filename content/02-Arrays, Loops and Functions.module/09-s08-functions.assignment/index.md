@@ -78,15 +78,18 @@ Create a file called `functions.js` (or `functions.html` with a `<script>` block
 - A comment describes what each function does
 - Code runs without errors
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Write all three functions as described and test each one. All students must reach this level.
-- Intermediate — If you finish Base with time remaining
-  - Add a fourth function called `isEven` using an arrow function that takes a number and returns `true` if it is even and `false` if it is odd. Then write a fifth function called `countEvens` that takes an array of numbers and returns how many of them are even — it must call `isEven` inside it using a `for...of` loop. Test with an array of at least 6 numbers.
-- Advanced — Challenge yourself
-  - Write a recursive function called `factorial` that takes a positive integer `n` and returns `n!` (n factorial — for example, `factorial(5)` returns 120 because 5 × 4 × 3 × 2 × 1 = 120). The base case is `factorial(0)` or `factorial(1)`, which both return 1. Test it with 0, 1, 5, and 10. Also add a function called `power(base, exp)` that uses recursion to calculate `base` raised to the power `exp` without using `Math.pow`. Test with `power(2, 8)` (should be 256).
+###### Base — Required for everyone
+Write all three functions as described and test each one. All students must reach this level.
+
+###### Intermediate — If you finish Base with time remaining
+Add a fourth function called `isEven` using an arrow function that takes a number and returns `true` if it is even and `false` if it is odd. Then write a fifth function called `countEvens` that takes an array of numbers and returns how many of them are even — it must call `isEven` inside it using a `for...of` loop. Test with an array of at least 6 numbers.
+
+###### Advanced — Challenge yourself
+Write a recursive function called `factorial` that takes a positive integer `n` and returns `n!` (n factorial — for example, `factorial(5)` returns 120 because 5 × 4 × 3 × 2 × 1 = 120). The base case is `factorial(0)` or `factorial(1)`, which both return 1. Test it with 0, 1, 5, and 10. Also add a function called `power(base, exp)` that uses recursion to calculate `base` raised to the power `exp` without using `Math.pow`. Test with `power(2, 8)` (should be 256).
+
+---
 
 {{include:session-footer}}
 

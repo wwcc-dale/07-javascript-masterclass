@@ -89,15 +89,18 @@ Create a file called `math-explorer.html`. Inside the `<script>` tag, write Java
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all five calculations, three typeof checks, three comparisons, and one precedence demonstration as described above.
-- Intermediate — More challenge
-  - Add a section that compares a string number to a real number using both `==` and `===`. Log both results and add a comment explaining why the results are different. Example: compare `"10"` and `10` with both operators.
-- Advanced — Push yourself
-  - Create a "calculator summary" at the end of your script. Declare variables for `startingValue`, `afterAdd`, `afterMultiply`, and `finalResult`. Each variable should use the previous one in its calculation. Build a chain of operations and log a summary message at the end using string concatenation (e.g. `"Start: " + startingValue + " → After add: " + afterAdd`) that explains all four steps. Also log the type of each variable to confirm they are all numbers.
+###### Base — Required for everyone
+Complete all five calculations, three typeof checks, three comparisons, and one precedence demonstration as described above.
+
+###### Intermediate — More challenge
+Add a section that compares a string number to a real number using both `==` and `===`. Log both results and add a comment explaining why the results are different. Example: compare `"10"` and `10` with both operators.
+
+###### Advanced — Push yourself
+Create a "calculator summary" at the end of your script. Declare variables for `startingValue`, `afterAdd`, `afterMultiply`, and `finalResult`. Each variable should use the previous one in its calculation. Build a chain of operations and log a summary message at the end using string concatenation (e.g. `"Start: " + startingValue + " → After add: " + afterAdd`) that explains all four steps. Also log the type of each variable to confirm they are all numbers.
+
+---
 
 {{include:session-footer}}
 

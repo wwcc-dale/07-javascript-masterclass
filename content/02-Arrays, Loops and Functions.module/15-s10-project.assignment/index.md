@@ -124,15 +124,18 @@ The trivia content is yours — the JavaScript structure is what is being assess
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - 10+ trivia questions on your chosen topic, automatic progression, score tracking, results screen showing missed questions, shuffle, Play Again.
-- Intermediate — More challenge
-  - Add a **difficulty filter**. Add a 7th element to each question: `"easy"` or `"hard"`. Add two buttons on a start screen: "Easy Mode" and "Hard Mode". Use `filter()` to pick the right questions. Show the selected difficulty in the heading. Write at least 5 questions at each level.
-- Advanced — Push yourself
-  - Add a **high score tracker**. Keep `const highScores = []`. After each quiz, push the score, sort descending, trim to 5 entries with `splice()`. Show the top scores on the results screen. Also show a fun **share message** using a template literal — e.g. `"I scored 8/10 on the Animal Kingdom Quiz! 🦁"` — so the player has something to screenshot and share.
+###### Base — Required for everyone
+10+ trivia questions on your chosen topic, automatic progression, score tracking, results screen showing missed questions, shuffle, Play Again.
+
+###### Intermediate — More challenge
+Add a **difficulty filter**. Add a 7th element to each question: `"easy"` or `"hard"`. Add two buttons on a start screen: "Easy Mode" and "Hard Mode". Use `filter()` to pick the right questions. Show the selected difficulty in the heading. Write at least 5 questions at each level.
+
+###### Advanced — Push yourself
+Add a **high score tracker**. Keep `const highScores = []`. After each quiz, push the score, sort descending, trim to 5 entries with `splice()`. Show the top scores on the results screen. Also show a fun **share message** using a template literal — e.g. `"I scored 8/10 on the Animal Kingdom Quiz! 🦁"` — so the player has something to screenshot and share.
+
+---
 
 {{include:session-footer}}
 

@@ -126,15 +126,18 @@ You will create a file called `async-loader.html`. You can reuse your `students.
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all steps as described. Write the async loadStudents function with status checking, call it in an IIFE, filter results, and build and log a POST config object.
-- Intermediate — More challenge
-  - Write a second async function called `loadJSON(url)` that is a generic version of loadStudents — it can load any JSON file, not just students. It should have the same status checking and error handling. Refactor loadStudents to call loadJSON internally. Test it by also loading a second JSON file you create called `courses.json` with at least 3 course objects (each with a title, code, and credits property). Log both sets of data.
-- Advanced — Push yourself
-  - Write a function called `retryFetch(url, attempts)` that tries to fetch a URL up to `attempts` times before giving up. On each failure, log `"Attempt N failed: [message]"`. Use a loop with async/await. After all attempts fail, throw a final error `"All N attempts failed for: [url]"`. Test it with a file name that does not exist and attempts = 3. This retry pattern is widely used in production code.
+###### Base — Required for everyone
+Complete all steps as described. Write the async loadStudents function with status checking, call it in an IIFE, filter results, and build and log a POST config object.
+
+###### Intermediate — More challenge
+Write a second async function called `loadJSON(url)` that is a generic version of loadStudents — it can load any JSON file, not just students. It should have the same status checking and error handling. Refactor loadStudents to call loadJSON internally. Test it by also loading a second JSON file you create called `courses.json` with at least 3 course objects (each with a title, code, and credits property). Log both sets of data.
+
+###### Advanced — Push yourself
+Write a function called `retryFetch(url, attempts)` that tries to fetch a URL up to `attempts` times before giving up. On each failure, log `"Attempt N failed: [message]"`. Use a loop with async/await. After all attempts fail, throw a final error `"All N attempts failed for: [url]"`. Test it with a file name that does not exist and attempts = 3. This retry pattern is widely used in production code.
+
+---
 
 {{include:session-footer}}
 

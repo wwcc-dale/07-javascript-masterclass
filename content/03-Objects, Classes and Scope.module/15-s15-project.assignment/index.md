@@ -164,15 +164,18 @@ class Quiz {
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Refactor using the Question object format and Quiz class. All quiz functionality from Credit 2 is preserved. Private fields work correctly.
-- Intermediate — More challenge
-  - Add a **category filter** to the Quiz class. Add a static method `Quiz.byCategory(questions, cat)` that returns only questions matching the given `category`. Add a `<select>` dropdown above the quiz showing all available categories (plus "All"). When the quiz starts, pass the filtered set to `new Quiz(...)`. This works great if your topic has natural sub-categories — e.g. a movie quiz could have "Action", "Comedy", "Animation".
-- Advanced — Push yourself
-  - Implement a **leaderboard** using a closure. Write a `makeLeaderboard()` function that returns an object with `add(name, score)`, `top(n)`, and `clear()` methods. The scores array is private inside the closure — nothing outside can access it directly. Add a name input form before the quiz starts. Show the top 3 on the results screen with a trophy emoji: 🥇 🥈 🥉. Display the player's name and score in the final "Quiz complete" message.
+###### Base — Required for everyone
+Refactor using the Question object format and Quiz class. All quiz functionality from Credit 2 is preserved. Private fields work correctly.
+
+###### Intermediate — More challenge
+Add a **category filter** to the Quiz class. Add a static method `Quiz.byCategory(questions, cat)` that returns only questions matching the given `category`. Add a `<select>` dropdown above the quiz showing all available categories (plus "All"). When the quiz starts, pass the filtered set to `new Quiz(...)`. This works great if your topic has natural sub-categories — e.g. a movie quiz could have "Action", "Comedy", "Animation".
+
+###### Advanced — Push yourself
+Implement a **leaderboard** using a closure. Write a `makeLeaderboard()` function that returns an object with `add(name, score)`, `top(n)`, and `clear()` methods. The scores array is private inside the closure — nothing outside can access it directly. Add a name input form before the quiz starts. Show the top 3 on the results screen with a trophy emoji: 🥇 🥈 🥉. Display the player's name and score in the final "Quiz complete" message.
+
+---
 
 {{include:session-footer}}
 

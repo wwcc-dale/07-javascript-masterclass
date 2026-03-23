@@ -80,15 +80,18 @@ All output goes to the browser console (open with F12) or the terminal if you ar
 - Variable names are meaningful (not `a`, `b`, `x`)
 - Code runs without errors in the browser console
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all 8 steps above. Your array should have at least 5 items after the push calls and 1 shift. All console output should be visible. Every student must reach this level.
-- Intermediate — If you finish Base with time remaining
-  - Add a second array called `pantryItems` with 3 items already stocked at home. Use `concat()` to combine `shoppingList` and `pantryItems` into a new array called `fullList`. Log `fullList` and its length. Also use `indexOf()` to find the position of one specific item in `fullList` and log it.
-- Advanced — Challenge yourself
-  - Use `indexOf()` to find one item in `fullList`, then use `splice()` to remove it and log the updated `fullList`. Then create a third array `urgentItems` with 2 items you need today, and use `concat()` to place it at the front of a new array called `prioritized` (put `urgentItems` first, then the rest of `fullList`). Log `prioritized`. Use `includes()` to check whether three specific items are in `prioritized` and log a message like `"Has milk: true"` for each. Finally, log the total number of unique items using `.length`.
+###### Base — Required for everyone
+Complete all 8 steps above. Your array should have at least 5 items after the push calls and 1 shift. All console output should be visible. Every student must reach this level.
+
+###### Intermediate — If you finish Base with time remaining
+Add a second array called `pantryItems` with 3 items already stocked at home. Use `concat()` to combine `shoppingList` and `pantryItems` into a new array called `fullList`. Log `fullList` and its length. Also use `indexOf()` to find the position of one specific item in `fullList` and log it.
+
+###### Advanced — Challenge yourself
+Use `indexOf()` to find one item in `fullList`, then use `splice()` to remove it and log the updated `fullList`. Then create a third array `urgentItems` with 2 items you need today, and use `concat()` to place it at the front of a new array called `prioritized` (put `urgentItems` first, then the rest of `fullList`). Log `prioritized`. Use `includes()` to check whether three specific items are in `prioritized` and log a message like `"Has milk: true"` for each. Finally, log the total number of unique items using `.length`.
+
+---
 
 {{include:session-footer}}
 

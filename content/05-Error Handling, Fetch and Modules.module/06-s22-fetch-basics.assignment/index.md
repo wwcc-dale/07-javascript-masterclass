@@ -135,15 +135,18 @@ Use this as a starting point but change the data to your own made-up students.
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all steps as described. Create the JSON file, fetch and parse it, filter to A-grade students, log names and count, and handle errors with .catch().
-- Intermediate — More challenge
-  - After logging A-grade students, also log the **average year** of all students (add up all the year values and divide by the total count). Format the result to two decimal places using `.toFixed(2)`. Also log the student with the highest year number using `.reduce()`.
-- Advanced — Push yourself
-  - Instead of logging to the console, write the output to the HTML page. Create a `<div id="output">` element in your HTML. After fetching and filtering, build an HTML string using `.map()` and template literals (e.g., `<li>Alex Rivera — Year 2 — Grade A</li>`) and set `document.getElementById("output").innerHTML` to that string. Include a heading like "A-Grade Students" and a count below the list.
+###### Base — Required for everyone
+Complete all steps as described. Create the JSON file, fetch and parse it, filter to A-grade students, log names and count, and handle errors with .catch().
+
+###### Intermediate — More challenge
+After logging A-grade students, also log the **average year** of all students (add up all the year values and divide by the total count). Format the result to two decimal places using `.toFixed(2)`. Also log the student with the highest year number using `.reduce()`.
+
+###### Advanced — Push yourself
+Instead of logging to the console, write the output to the HTML page. Create a `<div id="output">` element in your HTML. After fetching and filtering, build an HTML string using `.map()` and template literals (e.g., `<li>Alex Rivera — Year 2 — Grade A</li>`) and set `document.getElementById("output").innerHTML` to that string. Include a heading like "A-Grade Students" and a count below the list.
+
+---
 
 {{include:session-footer}}
 

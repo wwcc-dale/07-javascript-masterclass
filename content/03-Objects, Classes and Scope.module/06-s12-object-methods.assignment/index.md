@@ -112,15 +112,18 @@ You will create a file called `user-object.html`. Inside it, you will write a `<
 
 ---
 
-## Stretch Levels
+- flow-accordion: Stretch Levels
 
-- accordion: Stretch Levels
-- Base — Required for everyone
-  - Complete all steps as described: user object with 5 properties and 2 methods, destructuring, cloning, and merging. All output is correct.
-- Intermediate — More challenge
-  - Add a third method called `isAdult()` that uses `this.age` to return `true` if the user is 18 or older, or `false` otherwise. Call it and log the result with a label. Also use destructuring with a default value — destructure a property called `nickname` from `user` with a default of `"No nickname"` (since `user` does not have that property) and log it.
-- Advanced — Push yourself
-  - Refactor your merging step: instead of just merging two objects, write a function called `mergeProfiles(...objects)` that accepts any number of objects and returns one merged object using the spread operator inside a `reduce()` call. Call it with 3 separate objects. Also add a `summary()` method to `user` that uses a template literal to return a single string describing all five of the user's properties.
+###### Base — Required for everyone
+Complete all steps as described: user object with 5 properties and 2 methods, destructuring, cloning, and merging. All output is correct.
+
+###### Intermediate — More challenge
+Add a third method called `isAdult()` that uses `this.age` to return `true` if the user is 18 or older, or `false` otherwise. Call it and log the result with a label. Also use destructuring with a default value — destructure a property called `nickname` from `user` with a default of `"No nickname"` (since `user` does not have that property) and log it.
+
+###### Advanced — Push yourself
+Refactor your merging step: instead of just merging two objects, write a function called `mergeProfiles(...objects)` that accepts any number of objects and returns one merged object using the spread operator inside a `reduce()` call. Call it with 3 separate objects. Also add a `summary()` method to `user` that uses a template literal to return a single string describing all five of the user's properties.
+
+---
 
 {{include:session-footer}}
 
