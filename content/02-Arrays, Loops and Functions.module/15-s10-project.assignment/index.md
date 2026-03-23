@@ -18,15 +18,15 @@ topics:
   - dom
 ---
 
-[lead]Your quiz app has one question. Today you give it twenty. You will store all your questions in an array, loop through them automatically, use array methods to shuffle and score, and end with a proper results screen. By the end of this session your quiz is genuinely playable.
+[lead]Your trivia quiz has two questions. Today you give it twenty. You will store all your questions in an array, loop through them automatically, use array methods to shuffle and score, and end with a proper results screen. By the end of this session your quiz is genuinely fun to play.
 
-# Project: Build a Quiz App — Part 2: Multi-Question Quiz
+# Project: Build a Trivia Quiz App — Part 2: The Full Quiz
 
-In Credit 1 you built the skeleton of a quiz app — one question at a time, with basic if/else logic. It worked, but it was limited.
+In Credit 1 you built the skeleton — two questions, four buttons, a score counter. It worked, but it was limited.
 
-In Credit 2 you learned arrays, loops, functions, and higher-order array methods. Now you are going to use all of those to turn your quiz into something real.
+In Credit 2 you learned arrays, loops, functions, and higher-order array methods. Now you are going to use all of those to turn your trivia quiz into something real.
 
-Open your `quiz-app.html` from Credit 1 and start upgrading.
+Open your `quiz-app.html` from Credit 1 and start upgrading. Keep your topic — just add a lot more questions about it.
 
 - stats
 - 100 | Points | success
@@ -68,14 +68,20 @@ Store each question as an array with 6 elements:
 
 ```javascript
 const questions = [
-  ["What does push() do?", "Add to start", "Add to end", "Remove from end", "Remove from start", "B"],
-  ["What does indexOf() return if item is not found?", "0", "null", "-1", "undefined", "C"],
-  // ... more questions
+  ["What country has the most natural lakes?", "Russia", "Canada", "USA", "Brazil", "B"],
+  ["Which ocean is the largest?", "Atlantic", "Indian", "Arctic", "Pacific", "D"],
+  ["What is the capital of Australia?", "Sydney", "Melbourne", "Canberra", "Brisbane", "C"],
+  // ... more questions about YOUR topic
 ];
 // Format: [questionText, optionA, optionB, optionC, optionD, correctLetter]
 ```
 
-Write at least 10 questions about topics from Credits 1 and 2 (or anything you find interesting).
+Write at least 10 questions about your trivia topic. If you need inspiration, think about:
+- Facts you know well and want to test others on
+- Things you had to look up yourself recently
+- A topic you genuinely want people to learn about
+
+The trivia content is yours — the JavaScript structure is what is being assessed.
 
 ---
 
@@ -122,11 +128,11 @@ Write at least 10 questions about topics from Credits 1 and 2 (or anything you f
 
 - accordion: Stretch Levels
 - Base — Required for everyone
-  - 10+ questions, automatic progression, score tracking, results screen with missed questions, shuffle, Play Again.
+  - 10+ trivia questions on your chosen topic, automatic progression, score tracking, results screen showing missed questions, shuffle, Play Again.
 - Intermediate — More challenge
-  - Add a **difficulty filter**. Change the question format to include a difficulty string as a 7th element (`"easy"` or `"hard"`). Add two buttons before the quiz starts: "Easy mode" and "Hard mode". Use `filter()` to select the appropriate questions. Show the current mode in the heading.
+  - Add a **difficulty filter**. Add a 7th element to each question: `"easy"` or `"hard"`. Add two buttons on a start screen: "Easy Mode" and "Hard Mode". Use `filter()` to pick the right questions. Show the selected difficulty in the heading. Write at least 5 questions at each level.
 - Advanced — Push yourself
-  - Add a **high score tracker**. Keep an array `const highScores = []`. After each quiz, push the new score, sort descending, and trim to 5 entries with `splice()`. Display the leaderboard on the results screen. Also record `Date.now()` when each question loads and when it is answered — show average time per question on the results screen.
+  - Add a **high score tracker**. Keep `const highScores = []`. After each quiz, push the score, sort descending, trim to 5 entries with `splice()`. Show the top scores on the results screen. Also show a fun **share message** using a template literal — e.g. `"I scored 8/10 on the Animal Kingdom Quiz! 🦁"` — so the player has something to screenshot and share.
 
 {{include:session-footer}}
 

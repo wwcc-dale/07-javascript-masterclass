@@ -19,11 +19,11 @@ topics:
   - dom
 ---
 
-[lead]You have a quiz. Now it needs pressure. A countdown timer, a leaderboard powered by Map and Set, a smooth "loading..." pause between questions — the quiz goes from functional to fun. This is where async skills make the difference.
+[lead]You have a trivia quiz. Now it needs pressure. A countdown timer, a leaderboard powered by Map and Set, a smooth pause between questions — the quiz goes from fun to genuinely exciting. This is where async skills make all the difference.
 
-# Project: Build a Quiz App — Part 4: Timed Quiz
+# Project: Build a Trivia Quiz App — Part 4: Beat the Clock
 
-Your quiz engine is solid. But there is no urgency. The user can sit on a question forever. Real quiz apps have timers — they create energy, they reward quick thinking, they make losing feel fair.
+Your trivia quiz engine is solid. But there is no urgency. A player can sit on a question forever. Real quiz shows have timers — they create tension, reward fast thinkers, and make every second feel important.
 
 In Credit 4 you learned callbacks, timers, promises, async/await, and the built-in objects (Date, Map, Set, Math). Now you are going to wire those skills directly into your quiz.
 
@@ -174,9 +174,9 @@ On the results screen, use the Map to find:
 - Base — Required for everyone
   - Countdown timer (auto-expire), question delay, total time tracking with Map, upgraded results screen showing time stats.
 - Intermediate — More challenge
-  - Add an **animated progress bar** below the timer. It starts full and shrinks each second. Use a `<div>` with a fixed-width container and change its `style.width` property each tick: `Math.round((timeLeft / 15) * 100) + "%"`. Change its color from green → orange → red as time decreases.
+  - Add an **animated timer bar** below the clock. It starts full-width and shrinks each second. Use a `<div>` inside a fixed-width container and update `style.width` each tick: `Math.round((timeLeft / 15) * 100) + "%"`. Change its color: green above 10s, orange 6–10s, red 5s and below. The visual urgency makes the quiz feel much more exciting.
 - Advanced — Push yourself
-  - Add a **persistent leaderboard** using `localStorage`. After each quiz, save the top 10 scores as JSON: `localStorage.setItem("quizScores", JSON.stringify(scores))`. On page load, read them back with `JSON.parse(localStorage.getItem("quizScores") || "[]")`. Display the leaderboard before the quiz starts. Use a `Set` to ensure no duplicate player names (keep highest score if name already exists). The leaderboard should survive a page reload.
+  - Add a **persistent leaderboard** using `localStorage`. After each quiz, ask for the player's name, save the top 10 scores as JSON with `localStorage.setItem(...)`. On page load, read them back and show them on a start screen. Use a `Set` to prevent duplicate names (keep the highest score if the same name plays again). The leaderboard survives a page reload — come back the next day and your high score is still there.
 
 {{include:session-footer}}
 

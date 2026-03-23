@@ -34,16 +34,16 @@ New `questions` array format and the `Quiz` class, plus the updated glue functio
 ```javascript
 // --- Question bank (object format) ---
 const questions = [
-  { text: "What does push() do?", options: { A: "Add to start", B: "Add to end", C: "Remove from end", D: "Remove from start" }, answer: "B", category: "arrays" },
-  { text: "What does shift() return?", options: { A: "The last item", B: "Nothing", C: "The removed first item", D: "The array length" }, answer: "C", category: "arrays" },
-  { text: "What does indexOf() return if item is not found?", options: { A: "0", B: "null", C: "-1", D: "false" }, answer: "C", category: "arrays" },
-  { text: "Which method does NOT modify the original array?", options: { A: "push()", B: "pop()", C: "splice()", D: "map()" }, answer: "D", category: "arrays" },
-  { text: "What does .filter() return?", options: { A: "First match", B: "New shorter array", C: "Index of matches", D: "true or false" }, answer: "B", category: "arrays" },
-  { text: "What is a recursive function?", options: { A: "No parameters", B: "Calls itself", C: "Stored in array", D: "Arrow function" }, answer: "B", category: "functions" },
-  { text: "What does a default parameter do?", options: { A: "Prevents running", B: "Fallback when no argument given", C: "Declares a constant", D: "Returns undefined" }, answer: "B", category: "functions" },
-  { text: "What keyword declares a variable that cannot be reassigned?", options: { A: "let", B: "var", C: "const", D: "static" }, answer: "C", category: "variables" },
-  { text: "What does typeof 42 return?", options: { A: '"string"', B: '"number"', C: '"integer"', D: '"boolean"' }, answer: "B", category: "variables" },
-  { text: "What does Array.isArray([]) return?", options: { A: "false", B: "undefined", C: "null", D: "true" }, answer: "D", category: "arrays" }
+  { text: "What country has the most natural lakes?", options: { A: "Russia", B: "Canada", C: "USA", D: "Brazil" }, answer: "B", category: "geography" },
+  { text: "Which ocean is the largest?", options: { A: "Atlantic", B: "Indian", C: "Arctic", D: "Pacific" }, answer: "D", category: "geography" },
+  { text: "What is the capital of Australia?", options: { A: "Sydney", B: "Melbourne", C: "Canberra", D: "Brisbane" }, answer: "C", category: "geography" },
+  { text: "What is the hardest natural substance on Earth?", options: { A: "Gold", B: "Iron", C: "Diamond", D: "Quartz" }, answer: "C", category: "science" },
+  { text: "Which planet has the most moons?", options: { A: "Jupiter", B: "Saturn", C: "Uranus", D: "Neptune" }, answer: "B", category: "science" },
+  { text: "How many bones does an adult human body have?", options: { A: "196", B: "206", C: "216", D: "226" }, answer: "B", category: "science" },
+  { text: "What is the smallest country in the world?", options: { A: "Monaco", B: "Liechtenstein", C: "Vatican City", D: "San Marino" }, answer: "C", category: "geography" },
+  { text: "Which element has the chemical symbol Au?", options: { A: "Silver", B: "Aluminum", C: "Gold", D: "Argon" }, answer: "C", category: "science" },
+  { text: "How many sides does a dodecagon have?", options: { A: "10", B: "11", C: "12", D: "13" }, answer: "C", category: "math" },
+  { text: "What is the fastest land animal?", options: { A: "Lion", B: "Cheetah", C: "Greyhound", D: "Pronghorn" }, answer: "B", category: "animals" }
 ];
 
 // --- Quiz class ---

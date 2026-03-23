@@ -20,15 +20,17 @@ topics:
   - dom
 ---
 
-[lead]This is the first step in a project you will build all the way to the end of the course — a fully working Quiz App. By the end of Credit 5 you will have something you can actually show people. Today you build the foundation: one question, one answer, one score.
+[lead]This is the first step in a project you will build all the way to the end of the course — a fully working Trivia Quiz App. Pick any topic you love: movies, sport, animals, food, history, gaming. By the end of Credit 5 you will have something genuinely fun to show people. Today you build the foundation: one question, one answer, one score.
 
-# Project: Build a Quiz App — Part 1: Hello, Quiz!
+# Project: Build a Trivia Quiz App — Part 1: Hello, Quiz!
 
 You are starting something big today.
 
-Over the next five credits, you will build a complete, interactive Quiz App — one that loads questions, tracks scores, runs on a timer, and eventually pulls its questions from a data file. Each credit adds a new layer of real functionality.
+Over the next five credits, you will build a complete, interactive Trivia Quiz App — one that loads questions, tracks scores, runs on a timer, and eventually pulls its questions from a data file. Each credit adds a new layer of real functionality.
 
-Today's goal: get one question on the screen, let the user pick an answer, and show whether they got it right.
+**Your topic is up to you.** Movies. Animals. Sport. Music. Geography. Food. Whatever you find interesting — that is what your quiz will be about.
+
+Today's goal: get one trivia question on the screen, let the user pick an answer, and show whether they got it right.
 
 - stats
 - 100 | Points | success
@@ -63,14 +65,14 @@ A single HTML file called `quiz-app.html` with:
 4. A **score counter** that increases when the user gets the answer right
 5. A **Next Question button** (Base: it shows a second hardcoded question; it resets the page for a new attempt)
 
-Here is an example of what the page could look like in the browser:
+Here is an example of what the page could look like in the browser (using an animal trivia topic — yours can be anything):
 
 ```
 Question 1 of 2
 
-What keyword declares a variable that cannot be reassigned?
+Which animal is the fastest land mammal?
 
-  [ let ]   [ const ]   [ var ]   [ function ]
+  [ Lion ]   [ Cheetah ]   [ Greyhound ]   [ Pronghorn ]
 
 Score: 1 / 1
 ```
@@ -121,9 +123,10 @@ Copy this into your `quiz-app.html` file to get started:
 ## Step-by-Step Instructions
 
 - steps: Step-by-Step Instructions
-- Step 1 — Declare your two questions. Each question is a set of variables: the question text, four options, and the correct answer letter. Start with these (or make your own about JavaScript):
-  - Q1: "What keyword declares a variable that cannot be reassigned?" Options: A) let  B) const  C) var  D) function. Answer: B
-  - Q2: "What does `typeof 42` return?" Options: A) "number"  B) "integer"  C) "string"  D) "boolean". Answer: A
+- Step 1 — Choose your trivia topic and write two questions. Each question needs: the question text, four options (A, B, C, D), and the correct answer letter. Here are examples to inspire you — but write your OWN about a topic you like:
+  - Example (animals): "Which animal is the fastest land mammal?" A) Lion  B) Cheetah  C) Greyhound  D) Pronghorn. Answer: B
+  - Example (geography): "What is the capital of Japan?" A) Beijing  B) Seoul  C) Tokyo  D) Bangkok. Answer: C
+  - Your questions can be about literally anything — movies, sport, food, games, science, music. Pick something you know!
 - Step 2 — Write a `loadQuestion(q)` function. It takes a question object (or a set of variables you group yourself) and updates the DOM: sets `#question-text` to the question, sets each button's `textContent` to the matching option.
 - Step 3 — Wire up the answer buttons. Add an `onclick` to each button. When clicked, compare the button's letter to the correct answer. If correct: set `#feedback` text to `"Correct! ✓"`, increment `score`, update `#score` text. If wrong: show `"Wrong. The answer was [correct answer]."`.
 - Step 4 — Show the Next Question button after an answer is chosen. Set its `display` to `"block"`. Disable the answer buttons so the user cannot change their answer.
@@ -153,11 +156,11 @@ Copy this into your `quiz-app.html` file to get started:
 
 - accordion: Stretch Levels
 - Base — Required for everyone
-  - Build the quiz exactly as described: two questions, four buttons, feedback, score counter, Next button. Everything works end-to-end.
+  - Build the quiz exactly as described: two trivia questions on your chosen topic, four buttons, correct/wrong feedback, score counter, Next Question button. Everything works end-to-end.
 - Intermediate — More challenge
-  - Add a third question about something from the real world (not JavaScript). After the quiz ends, show a letter grade: "A" for 3/3, "B" for 2/3, "C or below" for less. Use `if/else if/else` for the grading logic.
+  - Add a third question. After the quiz ends, show a letter grade based on score: "A — Quiz Master!" for 3/3, "B — Nice Work!" for 2/3, and "C — Keep Studying!" for 1 or less. Use `if/else if/else`. Also give your quiz a proper title in the `<h1>` that describes the topic (e.g. "Animal Kingdom Trivia" or "Premier League Quiz").
 - Advanced — Push yourself
-  - Style your quiz to look professional: add a color to the correct answer button (green) and wrong buttons (red) after the user clicks. Use `document.getElementById("btn-a").style.backgroundColor = "green"` style updates. Also display the question number and total ("Question 2 of 3") by updating a `<p id="question-counter">` element. Reset all button colors when loading the next question.
+  - Style your quiz to look polished: after an answer is chosen, turn the correct answer button green and any wrong button clicked red. Use `.style.backgroundColor`. Display the question number and total ("Question 2 of 3") in a `<p id="question-counter">`. Reset button colors when loading the next question. Also add a topic image or emoji banner at the top using `document.getElementById("banner").textContent`.
 
 {{include:session-footer}}
 

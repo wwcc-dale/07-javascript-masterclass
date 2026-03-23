@@ -61,12 +61,12 @@ topics:
   <button id="next-btn" style="display:none;">Next Question →</button>
 
   <script>
-    // --- Question data ---
+    // --- Question data (trivia — students use their own topic) ---
     // Each question: [text, optionA, optionB, optionC, optionD, correctLetter]
-    const q1 = ["What keyword declares a variable that cannot be reassigned?",
-                "let", "const", "var", "function", "B"];
-    const q2 = ["What does typeof 42 return?",
-                '"number"', '"integer"', '"string"', '"boolean"', "A"];
+    const q1 = ["Which animal is the fastest land mammal?",
+                "Lion", "Cheetah", "Greyhound", "Pronghorn", "B"];
+    const q2 = ["What is the capital of Japan?",
+                "Beijing", "Seoul", "Tokyo", "Bangkok", "C"];
 
     const allQuestions = [q1, q2];
     let currentQuestion = 0;

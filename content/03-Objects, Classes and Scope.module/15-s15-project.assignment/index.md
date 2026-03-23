@@ -18,13 +18,13 @@ topics:
   - dom
 ---
 
-[lead]Your quiz works. Now you are going to make it clean. Real-world JavaScript code structures data as objects, uses classes to create consistent things, and uses closures to protect its state. By the end of this credit your quiz looks like code a professional would be proud of.
+[lead]Your trivia quiz works and people are playing it. Now you are going to make the code behind it clean. Real-world JavaScript structures data as objects, uses classes for consistency, and uses closures to protect state. By the end of this credit your quiz engine looks like code a professional would be proud of — and the trivia is still just as fun.
 
-# Project: Build a Quiz App — Part 3: Smart Quiz Engine
+# Project: Build a Trivia Quiz App — Part 3: Smart Quiz Engine
 
-You have a working multi-question quiz. But look at your code — the question data is a pile of arrays, the score is a loose variable sitting in the global scope, and the logic is spread everywhere.
+You have a working multi-question trivia quiz. But look at your code — the question data is a pile of arrays, the score is a loose variable in the global scope, and the logic is scattered everywhere.
 
-In Credit 3 you learned objects, classes, scope, and closures. Now you are going to use those tools to refactor your quiz into a well-structured engine. The quiz will look exactly the same to the user. But the code underneath will be far better.
+In Credit 3 you learned objects, classes, scope, and closures. Now you are going to use those tools to refactor your quiz into a well-structured engine. The quiz will look and play exactly the same to the user. The code underneath will be far better.
 
 Open your `quiz-app.html` from Credit 2 and start refactoring.
 
@@ -66,23 +66,23 @@ Refactor `quiz-app.html` so that:
 
 ## New Question Format
 
-Replace your array-of-arrays with an **array of objects**:
+Replace your array-of-arrays with an **array of objects**. Keep your existing trivia questions — just convert them to this shape:
 
 ```javascript
 const questions = [
   {
-    text: "What does push() do?",
-    options: { A: "Add to start", B: "Add to end", C: "Remove from end", D: "Remove from start" },
+    text: "What country has the most natural lakes?",
+    options: { A: "Russia", B: "Canada", C: "USA", D: "Brazil" },
     answer: "B",
-    category: "arrays"
+    category: "geography"
   },
   {
-    text: "What does indexOf() return if item is not found?",
-    options: { A: "0", B: "null", C: "-1", D: "undefined" },
-    answer: "C",
-    category: "arrays"
+    text: "Which ocean is the largest?",
+    options: { A: "Atlantic", B: "Indian", C: "Arctic", D: "Pacific" },
+    answer: "D",
+    category: "geography"
   },
-  // ...at least 10 questions total
+  // ...all your questions from Credit 2
 ];
 ```
 
@@ -170,9 +170,9 @@ class Quiz {
 - Base — Required for everyone
   - Refactor using the Question object format and Quiz class. All quiz functionality from Credit 2 is preserved. Private fields work correctly.
 - Intermediate — More challenge
-  - Add a `category` filter to the Quiz class. Add a static method `Quiz.byCategory(questions, cat)` that returns only questions matching the given category. Add a dropdown `<select>` above the quiz that lets the user choose "All", "arrays", "functions", or any categories you defined. When the quiz starts, pass the filtered set to `new Quiz(...)`.
+  - Add a **category filter** to the Quiz class. Add a static method `Quiz.byCategory(questions, cat)` that returns only questions matching the given `category`. Add a `<select>` dropdown above the quiz showing all available categories (plus "All"). When the quiz starts, pass the filtered set to `new Quiz(...)`. This works great if your topic has natural sub-categories — e.g. a movie quiz could have "Action", "Comedy", "Animation".
 - Advanced — Push yourself
-  - Implement a full **leaderboard** using a closure. Write a function `makeLeaderboard()` that returns an object with `add(name, score)`, `top(n)` (returns the top n entries sorted by score), and `clear()` methods. The actual scores array is private inside the closure — nothing outside can access it directly. Show the top 3 scores on the results screen. Also add a form that asks for the player's name before the quiz starts, and use that name when adding to the leaderboard.
+  - Implement a **leaderboard** using a closure. Write a `makeLeaderboard()` function that returns an object with `add(name, score)`, `top(n)`, and `clear()` methods. The scores array is private inside the closure — nothing outside can access it directly. Add a name input form before the quiz starts. Show the top 3 on the results screen with a trophy emoji: 🥇 🥈 🥉. Display the player's name and score in the final "Quiz complete" message.
 
 {{include:session-footer}}
 

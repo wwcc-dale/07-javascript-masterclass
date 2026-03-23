@@ -35,16 +35,16 @@ The complete solution is an upgrade to the Credit 1 file. Below is the key JavaS
 // --- Question bank ---
 // Format: [questionText, A, B, C, D, correctLetter]
 const questions = [
-  ["What does push() do to an array?", "Removes the last item", "Adds to the end", "Removes the first item", "Adds to the start", "B"],
-  ["What does shift() return?", "The last item", "Nothing", "The first item (and removes it)", "The array length", "C"],
-  ["What does indexOf() return if the item is not found?", "0", "null", "-1", "false", "C"],
-  ["What does Array.isArray([]) return?", "false", "undefined", "null", "true", "D"],
-  ["Which method does NOT modify the original array?", "push()", "pop()", "splice()", "map()", "D"],
-  ["What does .filter() return?", "The first matching item", "A new shorter array", "The index of matches", "true or false", "B"],
-  ["What does .reduce() do?", "Removes duplicates", "Combines all items into one value", "Filters the array", "Sorts the array", "B"],
-  ["What does for...of loop through?", "Object keys", "Array indices", "The values in an array", "A range of numbers", "C"],
-  ["What is a recursive function?", "A function with no parameters", "A function that calls itself", "A function stored in an array", "An arrow function", "B"],
-  ["What does a default parameter do?", "Prevents the function from running", "Sets a fallback value when no argument is given", "Declares a constant", "Returns undefined", "B"]
+  ["What country has the most natural lakes?", "Russia", "Canada", "USA", "Brazil", "B"],
+  ["Which ocean is the largest?", "Atlantic", "Indian", "Arctic", "Pacific", "D"],
+  ["What is the capital of Australia?", "Sydney", "Melbourne", "Canberra", "Brisbane", "C"],
+  ["How many bones does an adult human body have?", "196", "206", "216", "226", "B"],
+  ["What is the hardest natural substance on Earth?", "Gold", "Iron", "Diamond", "Quartz", "C"],
+  ["Which planet has the most moons?", "Jupiter", "Saturn", "Uranus", "Neptune", "B"],
+  ["What is the smallest country in the world?", "Monaco", "Liechtenstein", "Vatican City", "San Marino", "C"],
+  ["Which element has the chemical symbol Au?", "Silver", "Aluminum", "Gold", "Argon", "C"],
+  ["How many sides does a dodecagon have?", "10", "11", "12", "13", "C"],
+  ["What is the fastest land animal?", "Lion", "Cheetah", "Greyhound", "Pronghorn", "B"]
 ];
 
 // --- State ---

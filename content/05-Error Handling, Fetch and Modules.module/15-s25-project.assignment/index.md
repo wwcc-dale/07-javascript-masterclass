@@ -19,18 +19,18 @@ topics:
   - dom
 ---
 
-[lead]This is it. You have built a working, structured, timed quiz app over five credits. Now you take the final step that separates a hobby project from professional code: load real data from a file, handle every possible failure gracefully, and split your code into clean modules. This is the complete version.
+[lead]This is it. You have built a working, structured, timed trivia quiz over five credits. Now you take the final step that separates a hobby project from professional code: load your questions from a real data file, handle every failure gracefully, and split your code into clean modules. The result is an app you can genuinely be proud of.
 
-# Project: Build a Quiz App — Part 5: The Complete App
+# Project: Build a Trivia Quiz App — Part 5: The Complete App
 
 Look at how far you have come.
 
-Credit 1: One question on screen, answer checking, a score counter.
-Credit 2: A full question bank, arrays, shuffle, results screen.
-Credit 3: Objects, classes, private state, a proper Quiz engine.
-Credit 4: A countdown timer, async delays, time stats, a leaderboard.
+Credit 1: One trivia question on screen, answer checking, a score counter.
+Credit 2: A full question bank on your topic, shuffle, results with missed questions.
+Credit 3: Questions as objects, Quiz class, private state — professional structure.
+Credit 4: Countdown timer, async delays, time stats, a leaderboard.
 
-Credit 5: You make it real. Questions load from a JSON data file using `fetch`. Every possible error is handled — missing file, bad data, network hiccup. Your code is split into proper ES modules. The result is an app you could actually share.
+Credit 5: You make it real. Your trivia questions live in a proper `questions.json` data file. They load via `fetch` when the page opens. Every failure is handled gracefully. Your code is split into clean ES modules. The result is an app you could actually deploy and share.
 
 Open your `quiz-app.html` from Credit 4 and do the final upgrade.
 
@@ -72,26 +72,26 @@ The final upgrade to `quiz-app.html`:
 
 ## Step 1: Create questions.json
 
-Create a file called `questions.json` in the same folder as your HTML. Put all your questions in it:
+Create a file called `questions.json` in the same folder as your HTML. Move all your trivia questions into it:
 
 ```json
 [
   {
-    "text": "What does push() do?",
-    "options": { "A": "Add to start", "B": "Add to end", "C": "Remove from end", "D": "Remove from start" },
+    "text": "What country has the most natural lakes?",
+    "options": { "A": "Russia", "B": "Canada", "C": "USA", "D": "Brazil" },
     "answer": "B",
-    "category": "arrays"
+    "category": "geography"
   },
   {
-    "text": "What does indexOf() return if item is not found?",
-    "options": { "A": "0", "B": "null", "C": "-1", "D": "undefined" },
-    "answer": "C",
-    "category": "arrays"
+    "text": "Which ocean is the largest?",
+    "options": { "A": "Atlantic", "B": "Indian", "C": "Arctic", "D": "Pacific" },
+    "answer": "D",
+    "category": "geography"
   }
 ]
 ```
 
-Include all your questions (at least 10). Valid JSON requires double-quoted strings and no trailing commas.
+Include all your questions (at least 10). Valid JSON requires double-quoted strings everywhere and no trailing commas. Test by opening `questions.json` directly in a browser — it should display cleanly.
 
 ---
 
@@ -211,9 +211,9 @@ Add `<p id="status"></p>` near the top of your `<body>`.
 - Base — Required for everyone
   - Questions load from `questions.json` via `fetch`. Three-file structure (`quiz-app.html`, `quiz.js`, `loader.js`). Full error handling displayed on screen. Validation catches missing fields. All Credit 4 features preserved.
 - Intermediate — More challenge
-  - Add **multiple quiz sets**. Create `questions-easy.json` and `questions-hard.json` as separate files. Add a start screen with two buttons ("Easy Quiz" and "Hard Quiz"). Pass the chosen filename to `loadQuestions()`. Show which set is loaded in the page title. Handle the case where a chosen file is missing with a specific error message.
+  - Add **multiple question sets** as separate JSON files — e.g. `questions-easy.json` and `questions-hard.json`, or two different topic files (e.g. `questions-animals.json` and `questions-geography.json`). Add a start screen where the player picks which set to play. Pass the chosen filename to `loadQuestions()`. Handle the case where a chosen file is missing with a friendly on-screen error message.
 - Advanced — Push yourself
-  - Add a **statistics module**. Create `stats.js` that exports a `QuizStats` class. It stores all completed quiz sessions (score, total, time, date using `new Date().toLocaleDateString()`) in `localStorage` as JSON. Export methods: `record(session)`, `allSessions()`, `average()` (average percentage across all sessions), `best()` (highest score session). Show a "Your History" section on the results screen using this data. Handle the case where `localStorage` is unavailable (some browsers block it) with a try/catch fallback that just skips saving.
+  - Add a **statistics module**. Create `stats.js` that exports a `QuizStats` class. It stores all completed quiz sessions (score, total, time taken, date using `new Date().toLocaleDateString()`) in `localStorage` as JSON. Methods: `record(session)`, `allSessions()`, `average()` (average % across all plays), `best()` (highest-scoring session). Show a "Your History" section on the results screen. Handle `localStorage` being unavailable (some browsers block it) with a `try/catch` that silently skips saving — your app should never crash because of this.
 
 {{include:session-footer}}
 
