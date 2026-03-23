@@ -1,4 +1,5 @@
 ---
+indent: 1
 name: "Session 2 Practice Quiz: Types and Operators"
 quiz_type: practice_quiz
 time_limit: null

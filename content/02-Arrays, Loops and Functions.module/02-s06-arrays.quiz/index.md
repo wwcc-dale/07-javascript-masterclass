@@ -1,4 +1,5 @@
 ---
+indent: 1
 name: "Session 6 Practice Quiz: Arrays Basics"
 quiz_type: practice_quiz
 time_limit: null

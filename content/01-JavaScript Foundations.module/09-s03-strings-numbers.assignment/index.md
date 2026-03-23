@@ -1,4 +1,5 @@
 ---
+indent: 2
 name: "Assignment: Greeting Generator"
 published: false
 points_possible: 100

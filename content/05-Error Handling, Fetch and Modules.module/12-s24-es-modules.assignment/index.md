@@ -1,4 +1,5 @@
 ---
+indent: 2
 name: "Assignment: Helper Module Project"
 published: false
 points_possible: 100

@@ -1,4 +1,5 @@
 ---
+indent: 1
 name: "Session 12 Practice Quiz: Object Methods and Destructuring"
 quiz_type: practice_quiz
 time_limit: null

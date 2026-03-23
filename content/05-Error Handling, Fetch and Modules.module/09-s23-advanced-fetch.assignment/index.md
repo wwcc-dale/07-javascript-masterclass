@@ -1,4 +1,5 @@
 ---
+indent: 2
 name: "Assignment: Async Student Loader"
 published: false
 points_possible: 100

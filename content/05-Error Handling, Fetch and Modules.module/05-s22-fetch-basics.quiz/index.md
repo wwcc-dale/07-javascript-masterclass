@@ -1,4 +1,5 @@
 ---
+indent: 1
 name: "Session 22 Practice Quiz: Fetch API Basics"
 quiz_type: practice_quiz
 time_limit: null

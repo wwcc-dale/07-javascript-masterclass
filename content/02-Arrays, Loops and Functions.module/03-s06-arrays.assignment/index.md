@@ -1,4 +1,5 @@
 ---
+indent: 2
 name: "Assignment: Arrays Basics"
 published: false
 points_possible: 100

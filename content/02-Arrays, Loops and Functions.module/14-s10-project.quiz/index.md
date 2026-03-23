@@ -1,4 +1,5 @@
 ---
+indent: 1
 name: "Session 10 Practice Quiz: Credit 2 Synthesis"
 quiz_type: practice_quiz
 time_limit: null

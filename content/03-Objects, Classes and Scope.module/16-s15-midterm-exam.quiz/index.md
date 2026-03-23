@@ -1,4 +1,5 @@
 ---
+indent: 1
 name: "Midterm Examination — Sessions 1–15"
 quiz_type: assignment
 points_possible: 150

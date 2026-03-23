@@ -1,4 +1,5 @@
 ---
+indent: 1
 name: "Session 14 Practice Quiz: Scope and Closures"
 quiz_type: practice_quiz
 time_limit: null

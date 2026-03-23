@@ -1,4 +1,5 @@
 ---
+indent: 1
 name: "Session 11 Practice Quiz: Objects Basics"
 quiz_type: practice_quiz
 time_limit: null

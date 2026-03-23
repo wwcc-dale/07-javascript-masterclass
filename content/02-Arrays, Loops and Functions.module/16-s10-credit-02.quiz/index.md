@@ -1,4 +1,5 @@
 ---
+indent: 1
 name: "Credit 2 Graded Quiz — Arrays, Loops and Functions"
 quiz_type: assignment
 points_possible: 60

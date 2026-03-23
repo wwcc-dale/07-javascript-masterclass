@@ -1,4 +1,5 @@
 ---
+indent: 2
 name: "Assignment: Scope and Closures Explorer"
 published: false
 points_possible: 100

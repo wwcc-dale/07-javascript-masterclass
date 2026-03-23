@@ -1,4 +1,5 @@
 ---
+indent: 1
 name: "Session 3 Practice Quiz: Strings, Numbers, and Code Style"
 quiz_type: practice_quiz
 time_limit: null

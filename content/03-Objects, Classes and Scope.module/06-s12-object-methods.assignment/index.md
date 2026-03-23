@@ -1,4 +1,5 @@
 ---
+indent: 2
 name: "Assignment: User Object with Methods"
 published: false
 points_possible: 100

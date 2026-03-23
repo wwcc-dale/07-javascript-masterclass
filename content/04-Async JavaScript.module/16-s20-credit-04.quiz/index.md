@@ -1,4 +1,5 @@
 ---
+indent: 1
 name: "Credit 4 Graded Quiz — Async JavaScript"
 quiz_type: assignment
 points_possible: 60

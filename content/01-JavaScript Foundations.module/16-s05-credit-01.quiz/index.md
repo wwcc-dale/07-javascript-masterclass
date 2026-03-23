@@ -1,4 +1,5 @@
 ---
+indent: 1
 name: "Credit 1 Graded Quiz — JavaScript Foundations"
 quiz_type: assignment
 points_possible: 60

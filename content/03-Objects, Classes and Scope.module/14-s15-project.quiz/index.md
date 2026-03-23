@@ -1,4 +1,5 @@
 ---
+indent: 1
 name: "Session 15 Practice Quiz: Objects, Classes, and Scope Synthesis"
 quiz_type: practice_quiz
 time_limit: null

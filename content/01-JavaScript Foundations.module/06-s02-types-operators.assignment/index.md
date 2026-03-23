@@ -1,4 +1,5 @@
 ---
+indent: 2
 name: "Assignment: Math and Types Explorer"
 published: false
 points_possible: 100

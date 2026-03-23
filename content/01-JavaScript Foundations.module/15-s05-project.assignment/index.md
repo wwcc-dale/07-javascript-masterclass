@@ -1,4 +1,5 @@
 ---
+indent: 2
 name: "Project: Build a Quiz App — Part 1: Hello, Quiz!"
 published: false
 points_possible: 100

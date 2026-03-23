@@ -1,4 +1,5 @@
 ---
+indent: 1
 name: "Session 7 Practice Quiz: Loops"
 quiz_type: practice_quiz
 time_limit: null

@@ -1,4 +1,5 @@
 ---
+indent: 1
 name: "Session 1 Practice Quiz: Literals, Identifiers, and Variables"
 quiz_type: practice_quiz
 time_limit: null
